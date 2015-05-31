@@ -52,11 +52,11 @@ angular.module 'ceApp', []
         return false if pokemon.mega and @tiers[pokemon.mega.tier] >= @tiers[tier]
       @tiers[pokemon.tier] >= @tiers[tier] and not pokemon.legendary
 
-  @checkMega = (pokemon) ->
+  @checkMega = (pokemon, tier = 'OU') ->
     if @megas
       true
     else
-      not pokemon.mega
+      not pokemon.mega or @tiers[pokemon.mega.tier] < @tiers[tier]
 
   @formats = [
     name: 'Regular'
@@ -95,7 +95,7 @@ angular.module 'ceApp', []
   ,
     name: 'Legendary'
     callback: (pokemon) =>
-      pokemon.legendary and @checkMega pokemon
+      pokemon.legendary and @checkMega pokemon, 'Uber'
   ]
 
   @format = @formats[0]
