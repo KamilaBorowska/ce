@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "C&E _data/pokemon.yml generator",
   "scripts": {
-    "start": "node tools/gen.js"
+    "start": "node tools/gen.js",
+    "test": "protractor test/conf.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/xfix/ce#readme",
   "dependencies": {
-    "Pokemon-Showdown": "git+https://github.com/Zarel/Pokemon-Showdown.git"
+    "Pokemon-Showdown": "git+https://github.com/Zarel/Pokemon-Showdown.git",
+    "protractor": "^2.1.0"
   }
 }
