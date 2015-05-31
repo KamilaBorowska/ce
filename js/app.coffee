@@ -48,9 +48,7 @@ angular.module 'ceApp', []
 
   getTierCallback = (tier) =>
     (pokemon) =>
-      unless @megas
-        return false if pokemon.mega and @tiers[pokemon.mega.tier] >= @tiers[tier]
-      @tiers[pokemon.tier] >= @tiers[tier] and not pokemon.legendary
+      @tiers[pokemon.tier] >= @tiers[tier] and not pokemon.legendary and @checkMega tier
 
   @checkMega = (pokemon, tier = 'OU') ->
     if @megas
