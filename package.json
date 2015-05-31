@@ -1,0 +1,21 @@
+{
+  "name": "ce",
+  "version": "0.1.0",
+  "description": "C&E _data/pokemon.yml generator",
+  "scripts": {
+    "start": "node tools/gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfix/ce.git"
+  },
+  "author": "Konrad Borowski <x.fix@o2.pl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xfix/ce/issues"
+  },
+  "homepage": "https://github.com/xfix/ce#readme",
+  "dependencies": {
+    "Pokemon-Showdown": "git+https://github.com/Zarel/Pokemon-Showdown.git"
+  }
+}
