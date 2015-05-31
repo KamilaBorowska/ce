@@ -5,7 +5,7 @@
   tier: OU
   gen: 1
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Charmander
   legendary: false
@@ -14,7 +14,7 @@
   tier: OU
   gen: 1
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Squirtle
   legendary: false
@@ -23,7 +23,7 @@
   tier: UU
   gen: 1
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Pidgey
   legendary: false
@@ -32,7 +32,7 @@
   tier: UU
   gen: 1
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Rattata
   legendary: false
@@ -201,7 +201,7 @@
   tier: OU
   gen: 1
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Machop
   legendary: false
@@ -250,7 +250,7 @@
   tier: OU
   gen: 1
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Magnemite
   legendary: false
@@ -299,7 +299,7 @@
   tier: OU
   gen: 1
   mega:
-    tier:  Uber
+    tier: Uber
 
 - name: Onix
   legendary: false
@@ -308,7 +308,7 @@
   tier: RU
   gen: 1
   mega:
-    tier:  RU
+    tier: RU
 
 - name: Drowzee
   legendary: false
@@ -437,7 +437,7 @@
   tier: OU
   gen: 1
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Smoochum
   legendary: false
@@ -542,7 +542,7 @@
   tier: Uber
   gen: 1
   mega:
-    tier:  Uber
+    tier: Uber
 
 - name: Mew
   legendary: true
@@ -639,7 +639,7 @@
   tier: UU
   gen: 2
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Azurill
   legendary: false
@@ -792,7 +792,7 @@
   tier: RU
   gen: 2
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Phanpy
   legendary: false
@@ -833,7 +833,7 @@
   tier: OU
   gen: 2
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Lugia
   legendary: true
@@ -866,7 +866,7 @@
   tier: UU
   gen: 3
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Torchic
   legendary: false
@@ -875,7 +875,7 @@
   tier: Uber
   gen: 3
   mega:
-    tier:  Uber
+    tier: Uber
 
 - name: Mudkip
   legendary: false
@@ -884,7 +884,7 @@
   tier: UU
   gen: 3
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Poochyena
   legendary: false
@@ -941,7 +941,7 @@
   tier: OU
   gen: 3
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Surskit
   legendary: false
@@ -1014,7 +1014,7 @@
   tier: UU
   gen: 3
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Meditite
   legendary: false
@@ -1023,7 +1023,7 @@
   tier: RU
   gen: 3
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Electrike
   legendary: false
@@ -1032,7 +1032,7 @@
   tier: OU
   gen: 3
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Budew
   legendary: false
@@ -1057,7 +1057,7 @@
   tier: UU
   gen: 3
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Wailmer
   legendary: false
@@ -1074,7 +1074,7 @@
   tier: RU
   gen: 3
   mega:
-    tier:  RU
+    tier: RU
 
 - name: Spoink
   legendary: false
@@ -1107,7 +1107,7 @@
   tier: OU
   gen: 3
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Barboach
   legendary: false
@@ -1164,7 +1164,7 @@
   tier: RU
   gen: 3
   mega:
-    tier:  RU
+    tier: RU
 
 - name: Duskull
   legendary: false
@@ -1189,7 +1189,7 @@
   tier: UU
   gen: 3
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Spheal
   legendary: false
@@ -1214,7 +1214,7 @@
   tier: UU
   gen: 3
   mega:
-    tier:  Uber
+    tier: Uber
 
 - name: Beldum
   legendary: false
@@ -1223,7 +1223,7 @@
   tier: OU
   gen: 3
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Regirock
   legendary: true
@@ -1256,7 +1256,7 @@
   tier: OU
   gen: 3
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Latios
   legendary: true
@@ -1265,7 +1265,7 @@
   tier: OU
   gen: 3
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Kyogre
   legendary: true
@@ -1458,7 +1458,7 @@
   tier: OU
   gen: 4
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Glameow
   legendary: false
@@ -1491,7 +1491,7 @@
   tier: OU
   gen: 4
   mega:
-    tier:  OU
+    tier: OU
 
 - name: Riolu
   legendary: false
@@ -1500,7 +1500,7 @@
   tier: UU
   gen: 4
   mega:
-    tier:  Uber
+    tier: Uber
 
 - name: Hippopotas
   legendary: false
@@ -1541,7 +1541,7 @@
   tier: UU
   gen: 4
   mega:
-    tier:  UU
+    tier: UU
 
 - name: Uxie
   legendary: true
@@ -2486,5 +2486,5 @@
   tier: OU
   gen: 6
   mega:
-    tier:  OU
+    tier: OU
 
