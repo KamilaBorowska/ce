@@ -2,12 +2,12 @@ language: ruby
 rvm:
 - 2.1
 install:
-- bundle install
+- bundle install --path vendor/bundle
 - npm install
 - sh -e /etc/init.d/xvfb start
 - webdriver-manager update
 script:
-- jekyll serve --detach
+- bundle exec jekyll serve --detach
 - npm test
 env:
   global:
