@@ -84,7 +84,8 @@ angular.module 'ceApp', []
   ,
     name: 'Monoregion'
     callback: (pokemon) =>
-      not pokemon.legendary and @checkMega(pokemon) and pokemon.gen is 1 + @formatNameToFormat.Monoregion.configuration.values.indexOf @configuration
+      regions = @formatNameToFormat.Monoregion.configuration.values
+      not pokemon.legendary and @checkMega(pokemon) and pokemon.gen is 1 + regions.indexOf @configuration
     configuration:
       label: 'Region'
       values: ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos']
