@@ -1,5 +1,5 @@
 language: ruby
-ruby:
+rvm:
 - 2.1
 install:
 - npm install
