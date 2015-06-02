@@ -6,7 +6,7 @@ install:
 - gem install github-pages
 script:
 - jekyll serve --detach
-- [ "${TRAVIS_PULL_REQUEST}" = "false" ] && npm test
+- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && npm test'
 addons:
   sauce_connect: true
 env:
