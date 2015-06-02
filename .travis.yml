@@ -4,6 +4,7 @@ node_js:
 - iojs
 install:
 - gem install github-pages
+- npm install
 script:
 - jekyll serve --detach
 - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && npm test'
