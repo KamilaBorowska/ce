@@ -44,4 +44,10 @@ describe('C&E Generator', function() {
             })
         })
     })
+
+    it('should cap participants at 64', function cap() {
+        element(by.model('ce.participants')).getText().then(function (options) {
+            expect(options.trim().split(/\s+/)).toEqual(['8', '16', '32', '64'])
+        })
+    })
 })
