@@ -15,3 +15,7 @@ env:
 branches:
   only:
   - gh-pages
+cache:
+  bundler: true
+  directories:
+  - node_modules
