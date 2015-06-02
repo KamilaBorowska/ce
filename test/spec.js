@@ -14,7 +14,7 @@ describe('C&E Generator', function() {
         })
     })
 
-    it('should display allowed number of participants for monotype', function monotypEParticipants() {
+    it('should display allowed number of participants for monotype', function monotypeParticipants() {
         element(by.cssContainingText('option', 'Monotype')).click()
         element(by.cssContainingText('option', 'Dragon')).click()
         element(by.model('ce.participants')).getText().then(function (options) {
