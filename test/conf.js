@@ -1,4 +1,9 @@
 exports.config = {
     framework: 'jasmine2',
-    specs: ['spec.js']
+    specs: ['spec.js'],
+}
+
+if (process.env.SAUCE_USERNAME && process.env.SAUCE_ACCESS_KEY) {
+    exports.config.sauceUser = process.env.SAUCE_USERNAME
+    exports.config.sauceKey = process.env.SAUCE_ACCESS_KEY
 }
