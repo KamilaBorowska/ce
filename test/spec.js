@@ -30,4 +30,18 @@ describe('C&E Generator', function() {
             expect(options.trim()).toEqual("")
         })
     })
+
+    it('should allow rerolling', function reroll() {
+        element.all(by.cssContainingText('option', '8')).first().click()
+        element.all(by.repeater('i in ce.repeatParticipants()')).each(function (row) {
+            row.element(by.css('[readonly]')).getAttribute('value').then(function (value) {
+                originalValue = value
+                var reroll = row.element(by.cssContainingText('button', 'Reroll'))
+                expect(reroll.getText()).toEqual('Reroll')
+                reroll.click()
+                expect(reroll.getText()).toEqual('Reroll (1)')
+                expect(row.element(by.css('[readonly]')).getAttribute('value')).not.toEqual(value)
+            })
+        })
+    })
 })
