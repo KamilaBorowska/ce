@@ -13,4 +13,12 @@ describe('C&E Generator', function() {
             expect(options.trim().split(/\s+/)).toEqual(['8', '16', '32', '64'])
         })
     })
+
+    it('should display allowed number of participants for monotype', function monotypEParticipants() {
+        element(by.cssContainingText('option', 'Monotype')).click()
+        element(by.cssContainingText('option', 'Dragon')).click()
+        element(by.model('ce.participants')).getText().then(function (options) {
+            expect(options.trim().split(/\s+/)).toEqual(['8'])
+        })
+    })
 })
