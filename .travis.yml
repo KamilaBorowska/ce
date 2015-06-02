@@ -3,6 +3,8 @@ node_js:
 - stable
 - iojs
 install:
+- rvm install 2.0
+- rvm use 2.0
 - gem install github-pages
 - npm install
 script:
