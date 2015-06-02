@@ -33,7 +33,7 @@ describe('C&E Generator', function() {
 
     it('should allow rerolling', function reroll() {
         element.all(by.cssContainingText('option', '8')).first().click()
-        element.all(by.repeater('i in ce.repeatParticipants()')).each(function (row) {
+        element.all(by.repeater('player in ce.players')).each(function (row) {
             row.element(by.css('[readonly]')).getAttribute('value').then(function (value) {
                 originalValue = value
                 var reroll = row.element(by.cssContainingText('button', 'Reroll'))
