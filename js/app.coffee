@@ -109,7 +109,7 @@ angular.module 'ceApp', []
     allowedPokemon = @getAllowedPokemon()
     i = 8
     result = []
-    while i <= allowedPokemon.length
+    while i <= allowedPokemon.length and i isnt 128
       result.push i
       i *= 2
     result
