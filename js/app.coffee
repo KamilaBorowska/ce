@@ -17,6 +17,16 @@ shuffle = (list) ->
     [list[n], list[r]] = [list[r], list[n]]
   list
 
+class Player
+  name: ""
+  rerolls: 0
+  constructor: (@controller, @pokemon) ->
+  replace: ->
+    @rerolls += 1
+    {players} = @controller
+    r = +@controller.participants + Math.floor Math.random() * (players.length - +@controller.participants)
+    [players[i].pokemon, players[r].pokemon] = [players[r].pokemon, players[i].pokemon]
+
 angular.module 'ceApp', []
 .controller 'CeController', ['$http', ($http) ->
   @pokemon = []
@@ -35,7 +45,7 @@ angular.module 'ceApp', []
     @formatNameToFormat.Monocolor.configuration.values = (color for color of colorExists).sort()
     @updateListOfPokemon()
 
-  @randomPokemon = []
+  @players = []
   @megas = yes
 
   @tiers =
@@ -115,16 +125,7 @@ angular.module 'ceApp', []
     result
 
   @updateListOfPokemon = ->
-    @randomPokemon = shuffle @getAllowedPokemon()
-    @rerolls = (0 for i in @randomPokemon)
-
-  @repeatParticipants = ->
-    [1..@participants]
-
-  @replace = (i) ->
-    @rerolls[i] += 1
-    r = +@participants + Math.floor Math.random() * (@randomPokemon.length - +@participants)
-    [@randomPokemon[i], @randomPokemon[r]] = [@randomPokemon[r], @randomPokemon[i]]
+    @players = (new Player this, pokemon for pokemon in shuffle @getAllowedPokemon())
 
   @removeConfiguration = ->
     @configuration = null
