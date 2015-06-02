@@ -12,6 +12,7 @@ if (env.SAUCE_USERNAME && env.SAUCE_ACCESS_KEY) {
 }
 if (env.TRAVIS_BUILD_NUMBER) {
     process.capabilities = {
+        'browserName': 'chrome',
         'tunnel-identifier': env.TRAVIS_BUILD_NUBMER,
         'build': env.TRAVIS_BUILD_NUMBER
     }
