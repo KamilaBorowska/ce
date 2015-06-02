@@ -6,16 +6,15 @@ install:
 - rvm use 2.0
 - gem install github-pages
 - npm install
+- sh -e /etc/init.d/xvfb start
+- webdriver-manager update
 script:
 - jekyll serve --detach
 - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && npm test'
-addons:
-  sauce_connect: true
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - secure: eEwuxbBDLymLFRcto5/sL6KSkk/q0s5VrKp7kidygAw+N4xuDCzmJIgx/AB5zFVYLPAdn/YSgVkAtymNxmgEQgZr9yODEDJLT4dOGm+nz5abfKZs09hoSKdPIKeZ0NaVe4nXEu4Pd80oc5a8KYNJNhgx09pcI5VpPHT+g8bfzl9dxAPvSteyyOli1cL/4s32dvY7u7jYDUqau7BM1jLE1d7vHWn8NaG86TPQ6IdJx1PHelpn+HDa2epjT3LN66P0FqC/SPxyletVFz1awmTYluv4oDM6dB5Vfvt5OthhEHodjqA/6JHpnuNy2WEi3Ek/jb7lJaoINZTtDbUVpm1LIO+8la00aUGjuvKEUmzMw5vz+Dn718iXnj8drpp1MCE2PRbhRTr3ojiPmhPdQjUYgE9zz8tou/0fmKHxr3n+HRYH83z+QFvUp59FT/SP1+MXuUsOSkAMMlyvkQAiiEuOIGUv4isl3qx9sEWrjGbQEws8dN5zlE3Ws9Jb4UmdIq1LMwomZuz0hqxa2HP52e/ZIBvtrGoUWLEmOVRj4MJuf6/yMrOmOTGe86H/qvcSDr+c0gp/9DOu2w4M4/D39fK5xC9d5+79fArC9Z3nPTXgcmNdj7Z22pAMvv99X6oky5O2RoW/r19qIvn3zXkTpS9RdgWsb6Mf72ePFrA2wx7CIqE=
-  - secure: rI7edbf5EI/bazZC2b5/PzcdoW8mDJ5q7QRSG8P2ypXVrAUkOxQ0R0CrPVR419Mm4RNeCz0GZQRwgFa6XiMb0XHIBay3o+8tODq9KM4ZUN2ZptUNZxytRdDbxOqvdE+1h1xEcR2X/Zr8CRHO0SS7nw+IYN/Wkb4tPn880HPTCHK5wtZDYQ93Yj4WtZk7VpLh5hcOrD35S3oGfBGS3jVMuePNUTEDMIkRpKr8UgguWPFqi45/Zby/9hksRNKxxzyDFNtfk2O1u9+kGUyM/x0ySD5ud5puugb4mGutTDYayBYxpGHHCQRxoqL7s5tNDtlqj60D7wDJ8flNGT9MV8PgUSqgKr0egJMGnp9ykci3Kr6NcDBmnUQYekVVwxCtY8tqr8vWRCCKa4DNA9/OFzj+cjOQWMTq4ty3DEanwqFQqj/+upyzmA84hKXNqO/+OZnnJ3gkBIEf+xewca1X4nuU3A07OuUiT5DRTXhzGwlV2owtGnohqkp3Rr9jLdXbmFt8Xq1Eq+71HUFaBgtwJie/0ClUsJHm2Nm9nLbjHTIhxO5Wj8a3CDAJVdb6iM3NP/TfBoQW+GtPGh+gs/yoA+ubN4hDkODs2rff62dLL/kNrkwrSufZdBthP+Q4KvdHA7dBjnRrYF9W/Xn+py+ewEFdkV5xmIDZmA2OKTfK+5Yxpjg=
+  - DISPLAY=:99.0
 branches:
   only:
   - gh-pages
