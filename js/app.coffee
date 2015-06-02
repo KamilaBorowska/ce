@@ -25,7 +25,7 @@ class Player
     @rerolls += 1
     {players} = @controller
     r = +@controller.participants + Math.floor Math.random() * (players.length - +@controller.participants)
-    [players[i].pokemon, players[r].pokemon] = [players[r].pokemon, players[i].pokemon]
+    [@pokemon, players[r].pokemon] = [players[r].pokemon, @pokemon]
 
 angular.module 'ceApp', []
 .controller 'CeController', ['$http', ($http) ->
