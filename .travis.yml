@@ -10,7 +10,7 @@ install:
 - webdriver-manager update
 script:
 - jekyll serve --detach
-- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && npm test'
+- npm test
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
