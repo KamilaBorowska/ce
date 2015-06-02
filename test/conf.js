@@ -6,7 +6,6 @@ var config = exports.config = {
 }
 
 if (env.SAUCE_USERNAME && env.SAUCE_ACCESS_KEY) {
-    config.sauceSeleniumAddress = 'localhost:4445/wd/hub'
     config.sauceUser = env.SAUCE_USERNAME
     config.sauceKey = env.SAUCE_ACCESS_KEY
 }
