@@ -29,6 +29,10 @@ class Player
 
 angular.module 'ceApp', []
 .controller 'CeController', ['$http', ($http) ->
+  window.onbeforeunload = (e) =>
+    if @players.length >= @participants
+      "Are you sure you want to leave this page and lose list of Pokémon?"
+
   @pokemon = []
   $http.get 'json/pokemon.json'
   .success (data) =>
