@@ -128,6 +128,10 @@ angular.module 'ceApp', []
       i *= 2
     result
 
+  @getMaxParticipants = ->
+    participants = @getPossibleParticipants()
+    participants[participants.length - 1]
+
   @updateListOfPokemon = ->
     @players = (new Player this, pokemon for pokemon in shuffle @getAllowedPokemon())
 

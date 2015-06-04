@@ -32,6 +32,8 @@
         <label class="control-label col-sm-2" for="participants">Participants</label>
         <div class="controls col-sm-10">
             <select name="participants" class="form-control" ng-model="ce.participants" ng-options="i for i in ce.getPossibleParticipants()" tabindex=4></select>
+            <p class="help-block" ng-show="0 < ce.players.length && ce.players.length < 8">There aren't enough Pok&eacute;mon to make a reasonable tour.</p>
+            <p class="help-block" ng-show="8 <= ce.players.length && ce.players.length < 64">Specified tour is limited to {{ce.getMaxParticipants()}} participants.</p>
         </div>
     </div>
 </form>
