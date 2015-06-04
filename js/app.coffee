@@ -135,3 +135,8 @@ angular.module 'ceApp', []
   @removeConfiguration = ->
     @configuration = null
 ]
+.directive 'selectOnClick', ->
+  restrict: 'A'
+  link: (scope, element) ->
+    element.on 'click', ->
+      @select()
