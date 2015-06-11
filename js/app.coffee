@@ -60,8 +60,7 @@ angular.module 'ceApp', []
     NU: 4
     PU: 5
 
-  getTierCallback = (tier) =>
-    (pokemon) =>
+  @checkTier = (tier, pokemon) ->
       @tiers[pokemon.tier] >= @tiers[tier] and not pokemon.legendary and @checkMega tier
 
   @checkMega = (pokemon, tier = 'OU') ->
@@ -72,39 +71,39 @@ angular.module 'ceApp', []
 
   @formats = [
     name: 'Regular'
-    callback: getTierCallback 'OU'
+    callback: @checkTier.bind this, 'OU'
   ,
     name: 'Monotype'
     callback: (pokemon) =>
-      not pokemon.legendary and @configuration in pokemon.types and @checkMega pokemon
+      @configuration in pokemon.types and @checkTier 'OU', pokemon
     configuration:
       label: 'Type'
   ,
     name: 'Monocolor'
     callback: (pokemon) =>
-      not pokemon.legendary and pokemon.color is @configuration and @checkMega pokemon
+      pokemon.color is @configuration and @checkTier 'OU', pokemon
     configuration:
       label: 'Color'
   ,
     name: 'Monoregion'
     callback: (pokemon) =>
       regions = @formatNameToFormat.Monoregion.configuration.values
-      not pokemon.legendary and @checkMega(pokemon) and pokemon.gen is 1 + regions.indexOf @configuration
+      pokemon.gen is 1 + regions.indexOf(@configuration) and @checkTier 'OU', pokemon
     configuration:
       label: 'Region'
       values: ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos']
   ,
     name: 'UU'
-    callback: getTierCallback 'UU'
+    callback: @checkTier.bind this, 'UU'
   ,
     name: 'RU'
-    callback: getTierCallback 'RU'
+    callback: @checkTier.bind this, 'RU'
   ,
     name: 'NU'
-    callback: getTierCallback 'NU'
+    callback: @checkTier.bind this, 'NU'
   ,
     name: 'Ubers'
-    callback: getTierCallback 'Uber'
+    callback: @checkTier.bind this, 'Uber'
   ,
     name: 'Legendary'
     callback: (pokemon) =>
