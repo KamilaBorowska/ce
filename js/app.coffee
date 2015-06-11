@@ -61,7 +61,7 @@ angular.module 'ceApp', []
     PU: 5
 
   @checkTier = (tier, pokemon) ->
-      @tiers[pokemon.tier] >= @tiers[tier] and not pokemon.legendary and @checkMega tier
+      @tiers[pokemon.tier] >= @tiers[tier] and not pokemon.legendary and @checkMega pokemon, tier
 
   @checkMega = (pokemon, tier = 'OU') ->
     if @megas
