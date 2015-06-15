@@ -64,7 +64,7 @@ function gen(num) {
     return 6
 }
 
-var banned = {caterpie: 1, weedle: 1, magikarp: 1, sunkern: 1, wurmple: 1}
+var banned = {caterpie: 1, weedle: 1, magikarp: 1, sunkern: 1, wurmple: 1, scatterbug: 1}
 var legendaries = {
     articuno: 1, zapdos: 1, moltres: 1, mewtwo: 1, mew: 1, raikou: 1,
     entei: 1, suicune: 1, lugia: 1, hooh: 1, celebi: 1, regirock: 1,

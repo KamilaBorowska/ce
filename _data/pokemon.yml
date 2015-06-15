@@ -2287,14 +2287,6 @@
   gen: 6
   mega:
 
-- name: Scatterbug
-  legendary: false
-  color: Black
-  types: [Bug]
-  tier: NU
-  gen: 6
-  mega:
-
 - name: Litleo
   legendary: false
   color: Brown
