@@ -1931,7 +1931,7 @@
   legendary: false
   color: Green
   types: [Psychic]
-  tier: RU
+  tier: UU
   gen: 5
   mega:
 
@@ -2115,7 +2115,7 @@
   legendary: true
   color: Blue
   types: [Steel, Fighting]
-  tier: RU
+  tier: UU
   gen: 5
   mega:
 
@@ -2187,7 +2187,7 @@
   legendary: true
   color: Brown
   types: [Ground, Flying]
-  tier: OU
+  tier: Uber
   gen: 5
   mega:
 
@@ -2419,7 +2419,7 @@
   legendary: false
   color: Brown
   types: [Ghost, Grass]
-  tier: UU
+  tier: RU
   gen: 6
   mega:
 
@@ -2443,7 +2443,7 @@
   legendary: false
   color: Purple
   types: [Flying, Dragon]
-  tier: RU
+  tier: UU
   gen: 6
   mega:
 
