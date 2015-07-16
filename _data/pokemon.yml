@@ -215,7 +215,7 @@
   legendary: false
   color: Green
   types: [Grass, Poison]
-  tier: PU
+  tier: NU
   gen: 1
   mega:
 
@@ -2473,7 +2473,7 @@
 
 - name: Diancie
   legendary: true
-  color: Gray
+  color: Pink
   types: [Rock, Fairy]
   tier: OU
   gen: 6
