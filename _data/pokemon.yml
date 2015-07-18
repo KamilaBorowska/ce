@@ -2480,3 +2480,19 @@
   mega:
     tier: OU
 
+- name: Hoopa
+  legendary: true
+  color: Purple
+  types: [Psychic, Ghost]
+  tier: OU
+  gen: 6
+  mega:
+
+- name: Hoopa-Unbound
+  legendary: true
+  color: Purple
+  types: [Psychic, Dark]
+  tier: OU
+  gen: 6
+  mega:
+

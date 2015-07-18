@@ -77,7 +77,7 @@ var legendaries = {
     thundurus: 1, tornadustherian: 1, thundurustherian: 1, reshiram: 1,
     zekrom: 1, landorus: 1, landorustherian: 1, kyurem: 1, kyuremblack: 1,
     kyuremwhite: 1, keldeo: 1, meloetta: 1, genesect: 1, xerneas: 1,
-    yveltal: 1, zygarde: 1, diancie: 1
+    yveltal: 1, zygarde: 1, diancie: 1, hoopa: 1, hoopaunbound: 1
 }
 
 var fs = require('fs')
