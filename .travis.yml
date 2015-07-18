@@ -3,7 +3,7 @@ rvm:
 - 2.1
 install:
 - bundle install --path vendor/bundle
-- npm install
+- npm install protractor
 - sh -e /etc/init.d/xvfb start
 - webdriver-manager update
 script:
