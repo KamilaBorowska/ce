@@ -29,10 +29,10 @@
   legendary: false
   color: Brown
   types: [Normal, Flying]
-  tier: UU
+  tier: PU
   gen: 1
   mega:
-    tier: UU
+    tier: OU
 
 - name: Rattata
   legendary: false
@@ -190,7 +190,7 @@
   legendary: false
   color: Blue
   types: [Water]
-  tier: PU
+  tier: NU
   gen: 1
   mega:
 
@@ -914,7 +914,7 @@
   legendary: false
   color: Brown
   types: [Grass]
-  tier: RU
+  tier: NU
   gen: 3
   mega:
 
@@ -1335,7 +1335,7 @@
   legendary: false
   color: Green
   types: [Grass]
-  tier: PU
+  tier: NU
   gen: 4
   mega:
 
@@ -1472,7 +1472,7 @@
   legendary: false
   color: Purple
   types: [Poison, Dark]
-  tier: RU
+  tier: NU
   gen: 4
   mega:
 
@@ -1547,7 +1547,7 @@
   legendary: true
   color: Yellow
   types: [Psychic]
-  tier: NU
+  tier: RU
   gen: 4
   mega:
 
@@ -1883,7 +1883,7 @@
   legendary: false
   color: Blue
   types: [Water, Rock]
-  tier: PU
+  tier: NU
   gen: 5
   mega:
 
@@ -1923,7 +1923,7 @@
   legendary: false
   color: Purple
   types: [Psychic]
-  tier: OU
+  tier: UU
   gen: 5
   mega:
 
@@ -2403,7 +2403,7 @@
   legendary: false
   color: Blue
   types: [Rock, Ice]
-  tier: PU
+  tier: NU
   gen: 6
   mega:
 
