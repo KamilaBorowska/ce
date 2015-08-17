@@ -20,12 +20,13 @@ shuffle = (list) ->
 class Player
   name: ""
   rerolls: 0
-  constructor: (@controller, @pokemon) ->
+  constructor: (@controller, @pokemons) ->
+
   replace: ->
     @rerolls += 1
     {players} = @controller
     r = +@controller.participants + Math.floor Math.random() * (players.length - +@controller.participants)
-    [@pokemon, players[r].pokemon] = [players[r].pokemon, @pokemon]
+    [@pokemons, players[r].pokemons] = [players[r].pokemons, @pokemons]
 
 angular.module 'ceApp', []
 .controller 'CeController', ['$http', ($http) ->
@@ -63,15 +64,28 @@ angular.module 'ceApp', []
   @checkTier = (tier, pokemon) ->
       @tiers[pokemon.tier] >= @tiers[tier] and not pokemon.legendary and @checkMega pokemon, tier
 
-  @checkMega = (pokemon, tier = 'OU') ->
+  @checkDoublesTier = (tier, pokemon) ->
+      @tiers[pokemon.doublesTier] >= @tiers[tier] and not pokemon.legendary and @checkDoublesMega pokemon, tier
+
+  @checkMega = (pokemon) ->
     if @megas
       true
     else
       not pokemon.mega or @tiers[pokemon.mega.tier] < @tiers[tier]
 
+  @checkDoublesMega = (pokemon) ->
+    if @megas
+      true
+    else
+      not pokemon.mega or @tiers[pokemon.mega.doublesTier] < @tiers[tier]
+
   @formats = [
     name: 'Regular'
     callback: @checkTier.bind this, 'OU'
+  ,
+    name: 'Doubles'
+    callback: @checkDoublesTier.bind this, 'OU'
+    doubles: yes
   ,
     name: 'Monotype'
     callback: (pokemon) =>
@@ -121,18 +135,31 @@ angular.module 'ceApp', []
 
   @getPossibleParticipants = ->
     i = 8
+    maxFormatPlayers = @getMaxFormatPlayers()
     result = []
-    while i <= @players.length and i isnt 128
+    while i <= @players.length and i isnt maxFormatPlayers
       result.push i
       i *= 2
     result
+
+  @getMaxFormatPlayers = ->
+    2 ** (6 / @getNumberOfPokemon() + 1)
+
+  @getNumberOfPokemon = ->
+    if @format.doubles
+      2
+    else
+      1
 
   @getMaxParticipants = ->
     participants = @getPossibleParticipants()
     participants[participants.length - 1]
 
   @updateListOfPokemon = ->
-    @players = (new Player this, pokemon for pokemon in shuffle @getAllowedPokemon())
+    shuffled = shuffle @getAllowedPokemon()
+    pokemonCount = @getNumberOfPokemon()
+    @players = while shuffled.length >= pokemonCount
+      new Player this, shuffled.splice -pokemonCount
 
   @removeConfiguration = ->
     @configuration = null
