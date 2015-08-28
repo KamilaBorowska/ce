@@ -66,6 +66,9 @@ function searchTier(formatsData, pokemonid, findMega) {
         return searchTier(formatsData, evo, findMega)
     }).concat(formatsData[pokemonid].tier)
     return reverseTier[Math.min.apply(Math, toSearch.map(function toTierValue(tier) {
+        if (tier.charAt(0) === '(') {
+            tier = tier.slice(1, -1)
+        }
         return tiers[tier]
     }))]
 }
