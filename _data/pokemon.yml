@@ -2147,7 +2147,7 @@
   legendary: false
   color: Blue
   types: [Water, Rock]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 5
   mega:
@@ -2687,7 +2687,7 @@
   legendary: false
   color: Brown
   types: [Rock, Water]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 6
   mega:
