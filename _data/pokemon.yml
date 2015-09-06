@@ -2192,7 +2192,7 @@
   legendary: false
   color: Purple
   types: [Psychic]
-  tier: UU
+  tier: RU
   doublesTier: NU
   gen: 5
   mega:
@@ -2824,7 +2824,7 @@
   legendary: true
   color: Purple
   types: [Psychic, Ghost]
-  tier: OU
+  tier: UU
   doublesTier: OU
   gen: 6
   mega:
