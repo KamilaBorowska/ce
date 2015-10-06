@@ -163,7 +163,7 @@
   legendary: false
   color: Purple
   types: [Bug, Poison]
-  tier: RU
+  tier: UU
   doublesTier: NU
   gen: 1
   mega:
@@ -2192,7 +2192,7 @@
   legendary: false
   color: Purple
   types: [Psychic]
-  tier: RU
+  tier: NU
   doublesTier: NU
   gen: 5
   mega:
