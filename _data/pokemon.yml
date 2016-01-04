@@ -387,7 +387,7 @@
   legendary: false
   color: Pink
   types: [Grass, Psychic]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 1
   mega:
@@ -1098,7 +1098,7 @@
   legendary: false
   color: Brown
   types: [Normal]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 3
   mega:
