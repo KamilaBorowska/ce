@@ -2,7 +2,7 @@
   legendary: false
   color: Green
   types: [Grass, Poison]
-  tier: UU
+  tier: RU
   doublesTier: OU
   gen: 1
   mega:
@@ -13,7 +13,7 @@
   legendary: false
   color: Red
   types: [Fire]
-  tier: UU
+  tier: RU
   doublesTier: OU
   gen: 1
   mega:
@@ -724,7 +724,7 @@
   legendary: false
   color: White
   types: [Electric]
-  tier: RU
+  tier: NU
   doublesTier: UU
   gen: 2
   mega:
@@ -1060,7 +1060,7 @@
   legendary: false
   color: White
   types: [Water, Flying]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 3
   mega:
@@ -1174,7 +1174,7 @@
   legendary: false
   color: Green
   types: [Electric]
-  tier: UU
+  tier: RU
   doublesTier: NU
   gen: 3
   mega:
@@ -1326,7 +1326,7 @@
   legendary: false
   color: Black
   types: [Ghost]
-  tier: NU
+  tier: PU
   doublesTier: UU
   gen: 3
   mega:
@@ -1758,7 +1758,7 @@
   legendary: false
   color: White
   types: [Grass, Ice]
-  tier: RU
+  tier: NU
   doublesTier: UU
   gen: 4
   mega:
@@ -2813,7 +2813,7 @@
   legendary: true
   color: Pink
   types: [Rock, Fairy]
-  tier: UU
+  tier: RU
   doublesTier: OU
   gen: 6
   mega:
