@@ -1,14 +1,6 @@
 ---
 ---
 
-uniq = (list) ->
-  results = []
-  for value in list
-    if value isnt previousValue
-      results.push value
-    previousValue = value
-  results
-
 shuffle = (list) ->
   n = list.length
   while n > 1
