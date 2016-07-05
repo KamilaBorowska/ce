@@ -9,7 +9,6 @@ var formats = require('Pokemon-Showdown/config/formats').Formats
 var formatHandlers = {
     'Doubles OU': 'Uber',
     'Doubles UU': 'OU',
-    'Doubles NU': 'UU',
 }
 
 var banlists = {}
