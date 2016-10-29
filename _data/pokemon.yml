@@ -320,7 +320,7 @@
   legendary: false
   color: Purple
   types: [Poison]
-  tier: NU
+  tier: PU
   doublesTier: NU
   gen: 1
   mega:
@@ -450,7 +450,7 @@
   legendary: false
   color: Blue
   types: [Grass]
-  tier: RU
+  tier: OU
   doublesTier: NU
   gen: 1
   mega:
@@ -543,7 +543,7 @@
   color: Pink
   types: [Normal]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -780,7 +780,7 @@
   legendary: false
   color: Blue
   types: [Water, Ground]
-  tier: OU
+  tier: RU
   doublesTier: NU
   gen: 2
   mega:
@@ -1060,7 +1060,7 @@
   legendary: false
   color: White
   types: [Water, Flying]
-  tier: NU
+  tier: PU
   doublesTier: NU
   gen: 3
   mega:
@@ -1228,7 +1228,7 @@
   gen: 3
   mega:
     tier: RU
-    doublesTier: OU
+    doublesTier: NU
 
 - name: Spoink
   legendary: false
@@ -1252,7 +1252,7 @@
   legendary: false
   color: Green
   types: [Grass]
-  tier: NU
+  tier: PU
   doublesTier: NU
   gen: 3
   mega:
@@ -1384,7 +1384,7 @@
   legendary: false
   color: Blue
   types: [Dragon]
-  tier: UU
+  tier: OU
   doublesTier: NU
   gen: 3
   mega:
@@ -2310,7 +2310,7 @@
   color: White
   types: [Ghost, Fire]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2750,7 +2750,7 @@
   legendary: false
   color: Brown
   types: [Ghost, Grass]
-  tier: RU
+  tier: NU
   doublesTier: NU
   gen: 6
   mega:
