@@ -8,7 +8,7 @@ describe('C&E Generator', function() {
     })
 
     it('should display allowed number of participants', function participants() {
-        element(by.cssContainingText('option', 'NU')).click()
+        element(by.cssContainingText('option', 'RU')).click()
         element(by.model('ce.participants')).getText().then(function (options) {
             expect(options.trim().split(/\s+/)).toEqual(['8', '16', '32', '64'])
         })
@@ -16,15 +16,15 @@ describe('C&E Generator', function() {
 
     it('should display allowed number of participants for monotype', function monotypeParticipants() {
         element(by.cssContainingText('option', 'Monotype')).click()
-        element(by.cssContainingText('option', 'Dragon')).click()
+        element(by.cssContainingText('option', 'Steel')).click()
         element(by.model('ce.participants')).getText().then(function (options) {
             expect(options.trim().split(/\s+/)).toEqual(['8'])
         })
     })
 
-    it('should not display allowed number of participants for non-mega dragon monotype', function nonMegaDragon() {
+    it('should not display allowed number of participants for non-mega steel monotype', function nonMegaDragon() {
         element(by.cssContainingText('option', 'Monotype')).click()
-        element(by.cssContainingText('option', 'Dragon')).click()
+        element(by.cssContainingText('option', 'Steel')).click()
         element(by.model('ce.megas')).click()
         element(by.model('ce.participants')).getText().then(function (options) {
             expect(options.trim()).toEqual("")
