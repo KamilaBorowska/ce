@@ -107,7 +107,7 @@ function gen(num) {
 
 var banned = {
     burmy: 1, caterpie: 1, combee: 1, kricketot: 1, magikarp: 1, scatterbug: 1,
-    sunkern: 1, tynamo: 1, weedle: 1, wurmple: 1
+    sunkern: 1, tynamo: 1, weedle: 1, wurmple: 1, typenull: 1, cosmog: 1,
 }
 var legendaries = {
     articuno: 1, zapdos: 1, moltres: 1, mewtwo: 1, mew: 1, raikou: 1,
