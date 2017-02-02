@@ -16,7 +16,3 @@ env:
 branches:
   only:
   - gh-pages
-cache:
-  directories:
-  - node_modules
-  - vendor/bundle
