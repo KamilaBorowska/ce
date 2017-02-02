@@ -1532,15 +1532,6 @@
   gen: 4
   mega:
 
-- name: Kricketot
-  legendary: false
-  color: Red
-  types: [Bug]
-  tier: PU
-  doublesTier: NU
-  gen: 4
-  mega:
-
 - name: Shinx
   legendary: false
   color: Blue
@@ -1563,24 +1554,6 @@
   legendary: false
   color: Gray
   types: [Rock, Steel]
-  tier: PU
-  doublesTier: NU
-  gen: 4
-  mega:
-
-- name: Burmy
-  legendary: false
-  color: Gray
-  types: [Bug]
-  tier: PU
-  doublesTier: NU
-  gen: 4
-  mega:
-
-- name: Combee
-  legendary: false
-  color: Yellow
-  types: [Bug, Flying]
   tier: PU
   doublesTier: NU
   gen: 4
@@ -2242,15 +2215,6 @@
   legendary: false
   color: Gray
   types: [Steel]
-  tier: PU
-  doublesTier: NU
-  gen: 5
-  mega:
-
-- name: Tynamo
-  legendary: false
-  color: White
-  types: [Electric]
   tier: PU
   doublesTier: NU
   gen: 5
@@ -2976,6 +2940,15 @@
   gen: 6
   mega:
 
+- name: Silvally
+  legendary: true
+  color: Gray
+  types: [Normal]
+  tier: PU
+  doublesTier: NU
+  gen: 6
+  mega:
+
 - name: Jangmo-o
   legendary: false
   color: Gray
@@ -2985,11 +2958,146 @@
   gen: 6
   mega:
 
+- name: Tapu Koko
+  legendary: true
+  color: Yellow
+  types: [Electric, Fairy]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Tapu Lele
+  legendary: true
+  color: Pink
+  types: [Psychic, Fairy]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Tapu Bulu
+  legendary: true
+  color: Red
+  types: [Grass, Fairy]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Tapu Fini
+  legendary: true
+  color: Purple
+  types: [Water, Fairy]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
 - name: Cosmog
   legendary: false
   color: Blue
   types: [Psychic]
   tier: Uber
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Solgaleo
+  legendary: true
+  color: White
+  types: [Psychic, Steel]
+  tier: Uber
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Lunala
+  legendary: true
+  color: Purple
+  types: [Psychic, Ghost]
+  tier: Uber
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Nihilego
+  legendary: true
+  color: White
+  types: [Rock, Poison]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Buzzwole
+  legendary: true
+  color: Red
+  types: [Bug, Fighting]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Pheromosa
+  legendary: true
+  color: White
+  types: [Bug, Fighting]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Xurkitree
+  legendary: true
+  color: Black
+  types: [Electric]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Celesteela
+  legendary: true
+  color: Green
+  types: [Steel, Flying]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Kartana
+  legendary: true
+  color: White
+  types: [Grass, Steel]
+  tier: OU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Guzzlord
+  legendary: true
+  color: Black
+  types: [Dark, Dragon]
+  tier: PU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Necrozma
+  legendary: true
+  color: Black
+  types: [Psychic]
+  tier: PU
+  doublesTier: NU
+  gen: 6
+  mega:
+
+- name: Magearna
+  legendary: true
+  color: Gray
+  types: [Steel, Fairy]
+  tier: OU
   doublesTier: NU
   gen: 6
   mega:

@@ -105,7 +105,10 @@ function gen(num) {
     return 6
 }
 
-var banned = {caterpie: 1, weedle: 1, magikarp: 1, sunkern: 1, wurmple: 1, scatterbug: 1}
+var banned = {
+    burmy: 1, caterpie: 1, combee: 1, kricketot: 1, magikarp: 1, scatterbug: 1,
+    sunkern: 1, tynamo: 1, weedle: 1, wurmple: 1
+}
 var legendaries = {
     articuno: 1, zapdos: 1, moltres: 1, mewtwo: 1, mew: 1, raikou: 1,
     entei: 1, suicune: 1, lugia: 1, hooh: 1, celebi: 1, regirock: 1,
@@ -118,7 +121,11 @@ var legendaries = {
     thundurus: 1, tornadustherian: 1, thundurustherian: 1, reshiram: 1,
     zekrom: 1, landorus: 1, landorustherian: 1, kyurem: 1, kyuremblack: 1,
     kyuremwhite: 1, keldeo: 1, meloetta: 1, genesect: 1, xerneas: 1,
-    yveltal: 1, zygarde: 1, diancie: 1, hoopa: 1, hoopaunbound: 1
+    yveltal: 1, zygarde: 1, diancie: 1, hoopa: 1, hoopaunbound: 1,
+    silvally: 1, tapukoko: 1, tapulele: 1, tapubulu: 1, tapufini: 1,
+    solgaleo: 1, lunala: 1, nihilego: 1, buzzwole: 1, pheromosa: 1,
+    xurkitree: 1, celesteela: 1, kartana: 1, guzzlord: 1, necrozma: 1,
+    magearna: 1
 }
 
 var fs = require('fs')
