@@ -2931,15 +2931,6 @@
   gen: 6
   mega:
 
-- name: Type: Null
-  legendary: false
-  color: Gray
-  types: [Normal]
-  tier: PU
-  doublesTier: NU
-  gen: 6
-  mega:
-
 - name: Silvally
   legendary: true
   color: Gray
@@ -2990,15 +2981,6 @@
   color: Purple
   types: [Water, Fairy]
   tier: OU
-  doublesTier: NU
-  gen: 6
-  mega:
-
-- name: Cosmog
-  legendary: false
-  color: Blue
-  types: [Psychic]
-  tier: Uber
   doublesTier: NU
   gen: 6
   mega:
