@@ -102,7 +102,8 @@ function gen(num) {
     if (num <= 386) return 3
     if (num <= 493) return 4
     if (num <= 649) return 5
-    return 6
+    if (num <= 721) return 6
+    return 7
 }
 
 var banned = {

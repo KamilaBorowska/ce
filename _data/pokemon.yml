@@ -2766,7 +2766,7 @@
   types: [Grass, Flying]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Litten
@@ -2775,7 +2775,7 @@
   types: [Fire]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Popplio
@@ -2784,7 +2784,7 @@
   types: [Water]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Pikipek
@@ -2793,7 +2793,7 @@
   types: [Normal, Flying]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Yungoos
@@ -2802,7 +2802,7 @@
   types: [Normal]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Grubbin
@@ -2811,7 +2811,7 @@
   types: [Bug]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Crabrawler
@@ -2820,7 +2820,7 @@
   types: [Fighting]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Cutiefly
@@ -2829,7 +2829,7 @@
   types: [Bug, Fairy]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Rockruff
@@ -2838,7 +2838,7 @@
   types: [Rock]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Mareanie
@@ -2847,7 +2847,7 @@
   types: [Poison, Water]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Mudbray
@@ -2856,7 +2856,7 @@
   types: [Ground]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Dewpider
@@ -2865,7 +2865,7 @@
   types: [Water, Bug]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Fomantis
@@ -2874,7 +2874,7 @@
   types: [Grass]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Morelull
@@ -2883,7 +2883,7 @@
   types: [Grass, Fairy]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Salandit
@@ -2892,7 +2892,7 @@
   types: [Poison, Fire]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Stufful
@@ -2901,7 +2901,7 @@
   types: [Normal, Fighting]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Bounsweet
@@ -2910,7 +2910,7 @@
   types: [Grass]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Wimpod
@@ -2919,7 +2919,7 @@
   types: [Bug, Water]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Sandygast
@@ -2928,7 +2928,7 @@
   types: [Ghost, Ground]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Silvally
@@ -2937,7 +2937,7 @@
   types: [Normal]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Jangmo-o
@@ -2946,7 +2946,7 @@
   types: [Dragon]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Tapu Koko
@@ -2955,7 +2955,7 @@
   types: [Electric, Fairy]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Tapu Lele
@@ -2964,7 +2964,7 @@
   types: [Psychic, Fairy]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Tapu Bulu
@@ -2973,7 +2973,7 @@
   types: [Grass, Fairy]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Tapu Fini
@@ -2982,7 +2982,7 @@
   types: [Water, Fairy]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Solgaleo
@@ -2991,7 +2991,7 @@
   types: [Psychic, Steel]
   tier: Uber
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Lunala
@@ -3000,7 +3000,7 @@
   types: [Psychic, Ghost]
   tier: Uber
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Nihilego
@@ -3009,7 +3009,7 @@
   types: [Rock, Poison]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Buzzwole
@@ -3018,7 +3018,7 @@
   types: [Bug, Fighting]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Pheromosa
@@ -3027,7 +3027,7 @@
   types: [Bug, Fighting]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Xurkitree
@@ -3036,7 +3036,7 @@
   types: [Electric]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Celesteela
@@ -3045,7 +3045,7 @@
   types: [Steel, Flying]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Kartana
@@ -3054,7 +3054,7 @@
   types: [Grass, Steel]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Guzzlord
@@ -3063,7 +3063,7 @@
   types: [Dark, Dragon]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Necrozma
@@ -3072,7 +3072,7 @@
   types: [Psychic]
   tier: PU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 
 - name: Magearna
@@ -3081,6 +3081,6 @@
   types: [Steel, Fairy]
   tier: OU
   doublesTier: NU
-  gen: 6
+  gen: 7
   mega:
 

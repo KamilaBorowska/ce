@@ -97,7 +97,7 @@ angular.module 'ceApp', []
       pokemon.gen is 1 + regions.indexOf(@configuration) and @checkTier 'OU', pokemon
     configuration:
       label: 'Region'
-      values: ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos']
+      values: ['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola']
   ,
     name: 'UU'
     callback: @checkTier.bind this, 'UU'
