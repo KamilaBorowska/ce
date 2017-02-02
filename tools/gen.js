@@ -52,6 +52,7 @@ function searchTier(formatsData, pokemonid, findMega) {
         NU: 4,
         BL4: 4,
         PU: 5,
+        New: 5,
         NFE: 5,
         LC: 5,
         'LC Uber': 5,
@@ -78,9 +79,10 @@ function hasMega(pokemon) {
     }
     if (pokemon.otherFormes) {
         for (var i = 0; i < pokemon.otherFormes.length; i++) {
-            var forme = pokedex[pokemon.otherFormes[i]]
+            var id = pokemon.otherFormes[i]
+            var forme = pokedex[id]
             if (forme.forme.substring(0, 4) === 'Mega') {
-                return true
+                return formatsData[id].tier !== "Unreleased"
             }
         }
         return false
