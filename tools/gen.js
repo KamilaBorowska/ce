@@ -1,10 +1,10 @@
 // TODO: Make this entire thing cleaner
 
-var formatsData = require('Pokemon-Showdown/data/formats-data').BattleFormatsData
-var pokedex = require('Pokemon-Showdown/data/pokedex').BattlePokedex
-var items = require('Pokemon-Showdown/data/items').BattleItems
+var formatsData = require('pokemon-showdown/data/formats-data').BattleFormatsData
+var pokedex = require('pokemon-showdown/data/pokedex').BattlePokedex
+var items = require('pokemon-showdown/data/items').BattleItems
 var doublesFormatsData = Object.create(formatsData)
-var formats = require('Pokemon-Showdown/config/formats').Formats
+var formats = require('pokemon-showdown/config/formats').Formats
 
 var formatHandlers = {
     'Doubles OU': 'Uber',
