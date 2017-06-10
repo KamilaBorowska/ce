@@ -22,15 +22,6 @@ describe('C&E Generator', function() {
         })
     })
 
-    it('should not display allowed number of participants for non-mega steel monotype', function nonMegaDragon() {
-        element(by.cssContainingText('option', 'Monotype')).click()
-        element(by.cssContainingText('option', 'Steel')).click()
-        element(by.model('ce.megas')).click()
-        element(by.model('ce.participants')).getText().then(function (options) {
-            expect(options.trim()).toEqual("")
-        })
-    })
-
     it('should allow rerolling', function reroll() {
         element.all(by.cssContainingText('option', '8')).first().click()
         element.all(by.repeater('player in ce.players')).each(function (row) {
