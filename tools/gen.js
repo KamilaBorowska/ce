@@ -155,4 +155,4 @@ for (var pokemonid in formatsData) {
     fs.writeSync(output, '\n')
 }
 
-fs.close(output)
+fs.closeSync(output)
