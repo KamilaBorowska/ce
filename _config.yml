@@ -5,3 +5,6 @@ exclude:
 - test
 - LICENSE.txt
 - README.md
+
+plugins:
+ - jekyll-coffeescript
