@@ -135,7 +135,7 @@ var output = fs.openSync('_data/pokemon.yml', 'w')
 for (var pokemonid in formatsData) {
     var pokemon = pokedex[pokemonid]
     var format = formatsData[pokemonid]
-    if (!legendaries[pokemonid] && (pokemon.prevo || !pokemon.evos || pokemon.forme || format.isNonstandard || banned[pokemonid])) continue
+    if (!legendaries[pokemonid] && (!pokemon || pokemon.prevo || !pokemon.evos || pokemon.forme || format.isNonstandard || banned[pokemonid])) continue
 
     var mega = false
     var tier = format.tier
