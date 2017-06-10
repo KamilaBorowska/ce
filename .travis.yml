@@ -9,7 +9,6 @@ install:
 script:
 - bundle exec jekyll serve --detach
 - npm test
-- pkill -f jekyll
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
