@@ -7,8 +7,8 @@ var doublesFormatsData = Object.create(formatsData)
 var formats = require('pokemon-showdown/config/formats').Formats
 
 var formatHandlers = {
-    'Doubles OU': 'Uber',
-    'Doubles UU': 'OU',
+    '[Gen 7] Doubles OU': 'Uber',
+    '[Gen 7] Doubles UU': 'OU',
 }
 
 var banlists = {}
