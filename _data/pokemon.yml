@@ -74,7 +74,7 @@
   color: Yellow
   types: [Electric]
   tier: NU
-  doublesTier: OU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -339,7 +339,7 @@
   color: Purple
   types: [Ghost, Poison]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 1
   mega:
     tier: Uber
@@ -397,7 +397,7 @@
   color: Brown
   types: [Ground]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 1
   mega:
 
@@ -406,7 +406,7 @@
   color: Purple
   types: [Fighting]
   tier: NU
-  doublesTier: OU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -459,8 +459,8 @@
   legendary: false
   color: Blue
   types: [Water]
-  tier: NU
-  doublesTier: NU
+  tier: RU
+  doublesTier: OU
   gen: 1
   mega:
 
@@ -496,11 +496,11 @@
   color: Green
   types: [Bug, Flying]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 1
   mega:
     tier: OU
-    doublesTier: OU
+    doublesTier: NU
 
 - name: Smoochum
   legendary: false
@@ -543,7 +543,7 @@
   color: Pink
   types: [Normal]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 1
   mega:
 
@@ -570,7 +570,7 @@
   color: Black
   types: [Normal]
   tier: RU
-  doublesTier: NU
+  doublesTier: OU
   gen: 4
   mega:
 
@@ -596,7 +596,7 @@
   legendary: true
   color: Yellow
   types: [Fire, Flying]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 1
   mega:
@@ -707,7 +707,7 @@
   color: White
   types: [Fairy]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -734,7 +734,7 @@
   color: Blue
   types: [Normal, Fairy]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -841,7 +841,7 @@
   legendary: false
   color: Black
   types: [Dark, Ice]
-  tier: OU
+  tier: UU
   doublesTier: OU
   gen: 2
   mega:
@@ -899,7 +899,7 @@
   doublesTier: NU
   gen: 2
   mega:
-    tier: UU
+    tier: OU
     doublesTier: NU
 
 - name: Phanpy
@@ -985,7 +985,7 @@
   gen: 3
   mega:
     tier: UU
-    doublesTier: NU
+    doublesTier: OU
 
 - name: Torchic
   legendary: false
@@ -996,7 +996,7 @@
   gen: 3
   mega:
     tier: Uber
-    doublesTier: NU
+    doublesTier: OU
 
 - name: Mudkip
   legendary: false
@@ -1007,7 +1007,7 @@
   gen: 3
   mega:
     tier: UU
-    doublesTier: NU
+    doublesTier: OU
 
 - name: Poochyena
   legendary: false
@@ -1032,7 +1032,7 @@
   color: Green
   types: [Water, Grass]
   tier: NU
-  doublesTier: OU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1059,7 +1059,7 @@
   color: White
   types: [Water, Flying]
   tier: UU
-  doublesTier: NU
+  doublesTier: OU
   gen: 3
   mega:
 
@@ -1086,7 +1086,7 @@
   color: Brown
   types: [Grass]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1112,7 +1112,7 @@
   legendary: false
   color: Pink
   types: [Normal]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 3
   mega:
@@ -1221,6 +1221,8 @@
   doublesTier: NU
   gen: 3
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Spoink
   legendary: false
@@ -1320,6 +1322,8 @@
   doublesTier: NU
   gen: 3
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Duskull
   legendary: false
@@ -1377,7 +1381,7 @@
   gen: 3
   mega:
     tier: Uber
-    doublesTier: Uber
+    doublesTier: OU
 
 - name: Beldum
   legendary: false
@@ -1388,7 +1392,7 @@
   gen: 3
   mega:
     tier: Uber
-    doublesTier: NU
+    doublesTier: OU
 
 - name: Regirock
   legendary: true
@@ -1431,7 +1435,7 @@
   color: Blue
   types: [Dragon, Psychic]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1485,7 +1489,7 @@
   color: Red
   types: [Psychic]
   tier: Uber
-  doublesTier: NU
+  doublesTier: OU
   gen: 3
   mega:
 
@@ -1842,7 +1846,7 @@
   color: Green
   types: [Grass, Flying]
   tier: Uber
-  doublesTier: OU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1977,7 +1981,7 @@
   color: Blue
   types: [Rock]
   tier: RU
-  doublesTier: NU
+  doublesTier: OU
   gen: 5
   mega:
 
@@ -1995,7 +1999,7 @@
   color: Gray
   types: [Ground]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 5
   mega:
 
@@ -2004,7 +2008,7 @@
   color: Gray
   types: [Fighting]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2310,7 +2314,7 @@
   color: Red
   types: [Dark, Steel]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2337,7 +2341,7 @@
   color: Blue
   types: [Dark, Dragon]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2346,7 +2350,7 @@
   color: White
   types: [Bug, Fire]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 5
   mega:
 
@@ -2400,7 +2404,7 @@
   color: Blue
   types: [Electric, Flying]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2481,7 +2485,7 @@
   color: Yellow
   types: [Water, Fighting]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2499,7 +2503,7 @@
   color: Purple
   types: [Bug, Steel]
   tier: Uber
-  doublesTier: NU
+  doublesTier: OU
   gen: 5
   mega:
 
@@ -2526,7 +2530,7 @@
   color: Blue
   types: [Water]
   tier: OU
-  doublesTier: OU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2544,7 +2548,7 @@
   color: Red
   types: [Normal, Flying]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2723,7 +2727,7 @@
   legendary: false
   color: Purple
   types: [Flying, Dragon]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 6
   mega:
@@ -2760,7 +2764,7 @@
   color: Pink
   types: [Rock, Fairy]
   tier: RU
-  doublesTier: NU
+  doublesTier: OU
   gen: 6
   mega:
 
@@ -2849,7 +2853,7 @@
   legendary: false
   color: Yellow
   types: [Bug, Fairy]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 7
   mega:
@@ -2976,7 +2980,7 @@
   color: Yellow
   types: [Electric, Fairy]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 7
   mega:
 
@@ -2985,7 +2989,7 @@
   color: Pink
   types: [Psychic, Fairy]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 7
   mega:
 
@@ -2994,7 +2998,7 @@
   color: Red
   types: [Grass, Fairy]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 7
   mega:
 
@@ -3003,7 +3007,7 @@
   color: Purple
   types: [Water, Fairy]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 7
   mega:
 
@@ -3012,7 +3016,7 @@
   color: White
   types: [Psychic, Steel]
   tier: Uber
-  doublesTier: NU
+  doublesTier: Uber
   gen: 7
   mega:
 
@@ -3021,7 +3025,7 @@
   color: Purple
   types: [Psychic, Ghost]
   tier: Uber
-  doublesTier: NU
+  doublesTier: Uber
   gen: 7
   mega:
 
@@ -3048,7 +3052,7 @@
   color: White
   types: [Bug, Fighting]
   tier: Uber
-  doublesTier: NU
+  doublesTier: OU
   gen: 7
   mega:
 
@@ -3066,7 +3070,7 @@
   color: Green
   types: [Steel, Flying]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 7
   mega:
 
@@ -3075,7 +3079,7 @@
   color: White
   types: [Grass, Steel]
   tier: OU
-  doublesTier: NU
+  doublesTier: OU
   gen: 7
   mega:
 
@@ -3102,7 +3106,7 @@
   color: Gray
   types: [Steel, Fairy]
   tier: OU
-  doublesTier: NU
+  doublesTier: Uber
   gen: 7
   mega:
 
