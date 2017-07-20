@@ -18,9 +18,16 @@ for (var pokemonid in doublesFormatsData) {
     doublesFormatsData[pokemonid].tier = 'NU'
 }
 
+var puBanlist = null
+
 formats.forEach(function searchFormats(format) {
+    if (!format.name) {
+        return
+    }
     var tier = formatHandlers[format.name]
-    if (tier) {
+    if (format.name === '[Gen 7] PU (alpha)') {
+        puBanlist = format.banlist.map(toId)
+    } else if (tier) {
         format.banlist.forEach(function applyBanlist(entry) {
             var id = toId(entry)
             var item = items[id]
@@ -64,7 +71,7 @@ function searchTier(formatsData, pokemonid, findMega) {
     }
     var toSearch = evos.map(function recursiveSearch(evo) {
         return searchTier(formatsData, evo, findMega)
-    }).concat(formatsData[pokemonid].tier)
+    }).concat(puBanlist.includes(pokemonid) ? 'PU' : formatsData[pokemonid].tier)
     return reverseTier[Math.min.apply(Math, toSearch.map(function toTierValue(tier) {
         if (tier.charAt(0) === '(') {
             tier = tier.slice(1, -1)

@@ -108,6 +108,9 @@ angular.module 'ceApp', []
     name: 'NU'
     callback: @checkTier.bind this, 'NU'
   ,
+    name: 'PU'
+    callback: @checkTier.bind this, 'PU'
+  ,
     name: 'Ubers'
     callback: @checkTier.bind this, 'Uber'
   ,
