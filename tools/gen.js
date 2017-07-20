@@ -69,9 +69,13 @@ function searchTier(formatsData, pokemonid, findMega, puBanlist) {
     if (findMega) {
         evos = evos.concat(pokemon.otherFormes || [])
     }
+    var currentTier = formatsData[pokemonid].tier
+    if (currentTier === 'NU' && !puBanlist.includes(pokemonid)) {
+        currentTier = 'PU'
+    }
     var toSearch = evos.map(function recursiveSearch(evo) {
         return searchTier(formatsData, evo, findMega, puBanlist)
-    }).concat(puBanlist.includes(pokemonid) ? 'PU' : formatsData[pokemonid].tier)
+    }).concat(currentTier)
     return reverseTier[Math.min.apply(Math, toSearch.map(function toTierValue(tier) {
         if (tier.charAt(0) === '(') {
             tier = tier.slice(1, -1)
