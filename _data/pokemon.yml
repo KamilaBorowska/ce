@@ -1071,6 +1071,8 @@
   doublesTier: NU
   gen: 3
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Surskit
   legendary: false
@@ -1627,6 +1629,8 @@
   doublesTier: NU
   gen: 4
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Glameow
   legendary: false
@@ -2097,7 +2101,7 @@
   legendary: false
   color: Black
   types: [Ghost]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 5
   mega:
@@ -2673,7 +2677,7 @@
   legendary: false
   color: Brown
   types: [Rock, Dragon]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 6
   mega:
@@ -2925,7 +2929,7 @@
   legendary: false
   color: Pink
   types: [Normal, Fighting]
-  tier: UU
+  tier: RU
   doublesTier: NU
   gen: 7
   mega:
@@ -3042,7 +3046,7 @@
   legendary: true
   color: Red
   types: [Bug, Fighting]
-  tier: UU
+  tier: OU
   doublesTier: NU
   gen: 7
   mega:
@@ -3096,7 +3100,7 @@
   legendary: true
   color: Black
   types: [Psychic]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 7
   mega:
