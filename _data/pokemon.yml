@@ -6,7 +6,7 @@
   doublesTier: OU
   gen: 1
   mega:
-    tier: OU
+    tier: RU
     doublesTier: OU
 
 - name: Charmander
@@ -17,8 +17,8 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: NU
+    doublesTier: NU
 
 - name: Squirtle
   legendary: false
@@ -28,7 +28,7 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: UU
+    tier: RU
     doublesTier: NU
 
 - name: Pidgey
@@ -39,7 +39,7 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: UU
+    tier: NU
     doublesTier: NU
 
 - name: Rattata
@@ -286,7 +286,7 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: OU
+    tier: PU
     doublesTier: NU
 
 - name: Magnemite
@@ -342,8 +342,8 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: Uber
-    doublesTier: OU
+    tier: OU
+    doublesTier: NU
 
 - name: Onix
   legendary: false
@@ -353,7 +353,7 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: UU
+    tier: PU
     doublesTier: NU
 
 - name: Drowzee
@@ -499,7 +499,7 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: OU
+    tier: UU
     doublesTier: NU
 
 - name: Smoochum
@@ -899,7 +899,7 @@
   doublesTier: NU
   gen: 2
   mega:
-    tier: OU
+    tier: PU
     doublesTier: NU
 
 - name: Phanpy
@@ -984,8 +984,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: UU
-    doublesTier: OU
+    tier: PU
+    doublesTier: NU
 
 - name: Torchic
   legendary: false
@@ -996,7 +996,7 @@
   gen: 3
   mega:
     tier: Uber
-    doublesTier: OU
+    doublesTier: NU
 
 - name: Mudkip
   legendary: false
@@ -1007,7 +1007,7 @@
   gen: 3
   mega:
     tier: UU
-    doublesTier: OU
+    doublesTier: NU
 
 - name: Poochyena
   legendary: false
@@ -1071,8 +1071,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: RU
+    doublesTier: NU
 
 - name: Surskit
   legendary: false
@@ -1163,7 +1163,7 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
+    tier: PU
     doublesTier: NU
 
 - name: Electrike
@@ -1174,7 +1174,7 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
+    tier: NU
     doublesTier: NU
 
 - name: Budew
@@ -1203,7 +1203,7 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: UU
+    tier: RU
     doublesTier: NU
 
 - name: Wailmer
@@ -1223,8 +1223,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: NU
+    doublesTier: NU
 
 - name: Spoink
   legendary: false
@@ -1324,8 +1324,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: NU
+    doublesTier: NU
 
 - name: Duskull
   legendary: false
@@ -1382,8 +1382,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: Uber
-    doublesTier: OU
+    tier: OU
+    doublesTier: NU
 
 - name: Beldum
   legendary: false
@@ -1393,8 +1393,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: Uber
-    doublesTier: OU
+    tier: UU
+    doublesTier: NU
 
 - name: Regirock
   legendary: true
@@ -1629,8 +1629,8 @@
   doublesTier: NU
   gen: 4
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: NU
+    doublesTier: NU
 
 - name: Glameow
   legendary: false
@@ -1678,7 +1678,7 @@
   doublesTier: NU
   gen: 4
   mega:
-    tier: Uber
+    tier: UU
     doublesTier: NU
 
 - name: Hippopotas
@@ -1725,7 +1725,7 @@
   doublesTier: NU
   gen: 4
   mega:
-    tier: OU
+    tier: NU
     doublesTier: NU
 
 - name: Uxie
@@ -1733,7 +1733,7 @@
   color: Yellow
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -2048,7 +2048,7 @@
   color: Green
   types: [Grass, Fairy]
   tier: PU
-  doublesTier: NU
+  doublesTier: OU
   gen: 5
   mega:
 
@@ -2093,7 +2093,7 @@
   color: Yellow
   types: [Dark, Fighting]
   tier: PU
-  doublesTier: NU
+  doublesTier: OU
   gen: 5
   mega:
 
@@ -2381,7 +2381,7 @@
   color: Green
   types: [Grass, Fighting]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2498,7 +2498,7 @@
   color: White
   types: [Normal, Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 

@@ -46,7 +46,7 @@ function toId(name) {
     return name.toLowerCase().replace(/[^a-z0-9]/g, "")
 }
 
-function searchTier(formatsData, pokemonid, findMega) {
+function searchTier(formatsData, pokemonid, findMega, puBanlist) {
     var pokemon = pokedex[pokemonid]
     var tiers = {
         Uber: 0,
@@ -70,7 +70,7 @@ function searchTier(formatsData, pokemonid, findMega) {
         evos = evos.concat(pokemon.otherFormes || [])
     }
     var toSearch = evos.map(function recursiveSearch(evo) {
-        return searchTier(formatsData, evo, findMega)
+        return searchTier(formatsData, evo, findMega, puBanlist)
     }).concat(puBanlist.includes(pokemonid) ? 'PU' : formatsData[pokemonid].tier)
     return reverseTier[Math.min.apply(Math, toSearch.map(function toTierValue(tier) {
         if (tier.charAt(0) === '(') {
@@ -150,14 +150,15 @@ for (var pokemonid in formatsData) {
     fs.writeSync(output, '  legendary: ' + !!legendaries[pokemonid] + '\n')
     fs.writeSync(output, '  color: ' + pokemon.color + '\n')
     fs.writeSync(output, '  types: [' + pokemon.types.join(', ') + ']\n')
-    var tier = searchTier(formatsData, pokemonid, false)
-    fs.writeSync(output, '  tier: ' + searchTier(formatsData, pokemonid, false) + '\n')
-    fs.writeSync(output, '  doublesTier: ' + searchTier(doublesFormatsData, pokemonid, false) + '\n')
+    var singlesTier = searchTier(formatsData, pokemonid, false, puBanlist)
+    var doublesTier = searchTier(doublesFormatsData, pokemonid, false, [])
+    fs.writeSync(output, '  tier: ' + singlesTier + '\n')
+    fs.writeSync(output, '  doublesTier: ' + doublesTier + '\n')
     fs.writeSync(output, '  gen: ' + gen(pokemon.num) + '\n')
     fs.writeSync(output, '  mega:\n')
     if (hasMega(pokemon)) {
-        fs.writeSync(output, '    tier: ' + (searchTier(formatsData, pokemonid, true) || tier) + '\n')
-        fs.writeSync(output, '    doublesTier: ' + (searchTier(doublesFormatsData, pokemonid, true) || tier) + '\n')
+        fs.writeSync(output, '    tier: ' + singlesTier + '\n')
+        fs.writeSync(output, '    doublesTier: ' + doublesTier + '\n')
     }
     fs.writeSync(output, '\n')
 }
