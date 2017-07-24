@@ -6,7 +6,7 @@
   doublesTier: OU
   gen: 1
   mega:
-    tier: RU
+    tier: OU
     doublesTier: OU
 
 - name: Charmander
@@ -17,8 +17,8 @@
   doublesTier: PU
   gen: 1
   mega:
-    tier: PU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Squirtle
   legendary: false
@@ -28,8 +28,8 @@
   doublesTier: PU
   gen: 1
   mega:
-    tier: RU
-    doublesTier: PU
+    tier: UU
+    doublesTier: UU
 
 - name: Pidgey
   legendary: false
@@ -39,8 +39,8 @@
   doublesTier: PU
   gen: 1
   mega:
-    tier: PU
-    doublesTier: PU
+    tier: UU
+    doublesTier: UU
 
 - name: Rattata
   legendary: false
@@ -231,7 +231,7 @@
   gen: 1
   mega:
     tier: OU
-    doublesTier: PU
+    doublesTier: OU
 
 - name: Machop
   legendary: false
@@ -286,8 +286,8 @@
   doublesTier: PU
   gen: 1
   mega:
-    tier: NU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Magnemite
   legendary: false
@@ -342,8 +342,8 @@
   doublesTier: PU
   gen: 1
   mega:
-    tier: OU
-    doublesTier: PU
+    tier: Uber
+    doublesTier: Uber
 
 - name: Onix
   legendary: false
@@ -353,8 +353,8 @@
   doublesTier: PU
   gen: 1
   mega:
-    tier: NU
-    doublesTier: PU
+    tier: UU
+    doublesTier: UU
 
 - name: Drowzee
   legendary: false
@@ -499,8 +499,8 @@
   doublesTier: PU
   gen: 1
   mega:
-    tier: UU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Smoochum
   legendary: false
@@ -899,8 +899,8 @@
   doublesTier: PU
   gen: 2
   mega:
-    tier: NU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Phanpy
   legendary: false
@@ -984,8 +984,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: NU
-    doublesTier: PU
+    tier: UU
+    doublesTier: UU
 
 - name: Torchic
   legendary: false
@@ -996,7 +996,7 @@
   gen: 3
   mega:
     tier: Uber
-    doublesTier: PU
+    doublesTier: Uber
 
 - name: Mudkip
   legendary: false
@@ -1007,7 +1007,7 @@
   gen: 3
   mega:
     tier: UU
-    doublesTier: PU
+    doublesTier: UU
 
 - name: Poochyena
   legendary: false
@@ -1071,8 +1071,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: RU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Surskit
   legendary: false
@@ -1154,6 +1154,8 @@
   doublesTier: PU
   gen: 3
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Meditite
   legendary: false
@@ -1163,8 +1165,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: NU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Electrike
   legendary: false
@@ -1174,8 +1176,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: PU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Budew
   legendary: false
@@ -1203,8 +1205,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: RU
-    doublesTier: PU
+    tier: UU
+    doublesTier: UU
 
 - name: Wailmer
   legendary: false
@@ -1223,8 +1225,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: PU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Spoink
   legendary: false
@@ -1324,8 +1326,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: PU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Duskull
   legendary: false
@@ -1354,7 +1356,7 @@
   gen: 3
   mega:
     tier: RU
-    doublesTier: PU
+    doublesTier: RU
 
 - name: Spheal
   legendary: false
@@ -1382,8 +1384,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: PU
+    tier: Uber
+    doublesTier: Uber
 
 - name: Beldum
   legendary: false
@@ -1393,8 +1395,8 @@
   doublesTier: PU
   gen: 3
   mega:
-    tier: UU
-    doublesTier: PU
+    tier: Uber
+    doublesTier: Uber
 
 - name: Regirock
   legendary: true
@@ -1629,8 +1631,8 @@
   doublesTier: PU
   gen: 4
   mega:
-    tier: PU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Glameow
   legendary: false
@@ -1678,8 +1680,8 @@
   doublesTier: PU
   gen: 4
   mega:
-    tier: UU
-    doublesTier: PU
+    tier: Uber
+    doublesTier: Uber
 
 - name: Hippopotas
   legendary: false
@@ -1725,8 +1727,8 @@
   doublesTier: PU
   gen: 4
   mega:
-    tier: PU
-    doublesTier: PU
+    tier: OU
+    doublesTier: OU
 
 - name: Uxie
   legendary: true

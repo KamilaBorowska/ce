@@ -161,8 +161,8 @@ for (var pokemonid in formatsData) {
     fs.writeSync(output, '  gen: ' + gen(pokemon.num) + '\n')
     fs.writeSync(output, '  mega:\n')
     if (hasMega(pokemon)) {
-        fs.writeSync(output, '    tier: ' + singlesTier + '\n')
-        fs.writeSync(output, '    doublesTier: ' + doublesTier + '\n')
+        fs.writeSync(output, '    tier: ' + searchTier(formatsData, pokemonid, true, puBanlist) + '\n')
+        fs.writeSync(output, '    doublesTier: ' + searchTier(formatsData, pokemonid, true, []) + '\n')
     }
     fs.writeSync(output, '\n')
 }
