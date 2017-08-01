@@ -152,7 +152,17 @@ for (var pokemonid in formatsData) {
     var tier = format.tier
     fs.writeSync(output, '- name: ' + pokemon.species + '\n')
     fs.writeSync(output, '  legendary: ' + !!legendaries[pokemonid] + '\n')
-    fs.writeSync(output, '  color: ' + pokemon.color + '\n')
+    const colors = new Map([[pokemon.color, pokemon.species]])
+    for (const formeid of pokemon.otherFormes || []) {
+        const formeColor = pokedex[formeid].color
+        if (!colors.has(formeColor)) {
+            colors.set(formeColor, pokedex[formeid].species)
+        }
+    }
+    fs.writeSync(output, '  color:\n')
+    for (const [color, specie] of colors) {
+        fs.writeSync(output, `    ${color}: ${specie}\n`)
+    }
     fs.writeSync(output, '  types: [' + pokemon.types.join(', ') + ']\n')
     var singlesTier = searchTier(formatsData, pokemonid, false, puBanlist)
     var doublesTier = searchTier(doublesFormatsData, pokemonid, false, [])

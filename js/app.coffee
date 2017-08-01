@@ -34,7 +34,8 @@ angular.module 'ceApp', []
     typeExists = {}
     colorExists = {}
     for pokemon in @pokemon
-      colorExists[pokemon.color] = yes
+      for color of pokemon.color
+        colorExists[color] = yes
       for type in pokemon.types
         typeExists[type] = yes
 
@@ -87,7 +88,7 @@ angular.module 'ceApp', []
   ,
     name: 'Monocolor'
     callback: (pokemon) =>
-      pokemon.color is @configuration and @checkTier 'OU', pokemon
+      @checkTier('OU', pokemon) and pokemon.color[@configuration]
     configuration:
       label: 'Color'
   ,
@@ -126,7 +127,15 @@ angular.module 'ceApp', []
     @formatNameToFormat[format.name] = format
 
   @getAllowedPokemon = ->
-    pokemon.name for pokemon in @pokemon.filter @format.callback
+    allowed = []
+    for pokemon in @pokemon
+      result = @format.callback pokemon
+      if result
+        allowed.push if result is true
+          pokemon.name
+        else
+          result
+    allowed
 
   @getPossibleParticipants = ->
     i = 8
