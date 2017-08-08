@@ -1,3 +1,5 @@
+"use strict"
+
 // TODO: Make this entire thing cleaner
 
 var formatsData = require('pokemon-showdown/data/formats-data').BattleFormatsData
