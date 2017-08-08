@@ -18,16 +18,12 @@ for (var pokemonid in doublesFormatsData) {
     doublesFormatsData[pokemonid].tier = 'NU'
 }
 
-var puBanlist = null
-
 formats.forEach(function searchFormats(format) {
     if (!format.name) {
         return
     }
     var tier = formatHandlers[format.name]
-    if (format.name === '[Gen 7] PU (alpha)') {
-        puBanlist = format.banlist.map(toId)
-    } else if (tier) {
+    if (tier) {
         format.banlist.forEach(function applyBanlist(entry) {
             var id = toId(entry)
             var item = items[id]
@@ -46,7 +42,7 @@ function toId(name) {
     return name.toLowerCase().replace(/[^a-z0-9]/g, "")
 }
 
-function searchTier(formatsData, pokemonid, findMega, puBanlist) {
+function searchTier(formatsData, pokemonid, findMega) {
     var pokemon = pokedex[pokemonid]
     var tiers = {
         Uber: 0,
@@ -70,11 +66,8 @@ function searchTier(formatsData, pokemonid, findMega, puBanlist) {
         evos = evos.concat(pokemon.otherFormes || [])
     }
     var currentTier = formatsData[pokemonid].tier
-    if (currentTier === 'NU' && !puBanlist.includes(pokemonid)) {
-        currentTier = 'PU'
-    }
     var toSearch = evos.map(function recursiveSearch(evo) {
-        return searchTier(formatsData, evo, findMega, puBanlist)
+        return searchTier(formatsData, evo, findMega)
     }).concat(currentTier)
     return reverseTier[Math.min.apply(Math, toSearch.map(function toTierValue(tier) {
         if (tier.charAt(0) === '(') {
@@ -164,15 +157,15 @@ for (var pokemonid in formatsData) {
         fs.writeSync(output, `    ${color}: ${specie}\n`)
     }
     fs.writeSync(output, '  types: [' + pokemon.types.join(', ') + ']\n')
-    var singlesTier = searchTier(formatsData, pokemonid, false, puBanlist)
+    var singlesTier = searchTier(formatsData, pokemonid, false)
     var doublesTier = searchTier(doublesFormatsData, pokemonid, false, [])
     fs.writeSync(output, '  tier: ' + singlesTier + '\n')
     fs.writeSync(output, '  doublesTier: ' + doublesTier + '\n')
     fs.writeSync(output, '  gen: ' + gen(pokemon.num) + '\n')
     fs.writeSync(output, '  mega:\n')
     if (hasMega(pokemon)) {
-        fs.writeSync(output, '    tier: ' + searchTier(formatsData, pokemonid, true, puBanlist) + '\n')
-        fs.writeSync(output, '    doublesTier: ' + searchTier(formatsData, pokemonid, true, []) + '\n')
+        fs.writeSync(output, '    tier: ' + searchTier(formatsData, pokemonid, true) + '\n')
+        fs.writeSync(output, '    doublesTier: ' + searchTier(formatsData, pokemonid, true) + '\n')
     }
     fs.writeSync(output, '\n')
 }

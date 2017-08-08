@@ -16,7 +16,7 @@
     Red: Charmander
   types: [Fire]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: OU
@@ -28,7 +28,7 @@
     Blue: Squirtle
   types: [Water]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: UU
@@ -40,7 +40,7 @@
     Brown: Pidgey
   types: [Normal, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: UU
@@ -53,7 +53,7 @@
     Black: Rattata-Alola
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -63,7 +63,7 @@
     Brown: Spearow
   types: [Normal, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -73,7 +73,7 @@
     Purple: Ekans
   types: [Poison]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -83,7 +83,7 @@
     Yellow: Pichu
   types: [Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -94,7 +94,7 @@
     White: Sandshrew-Alola
   types: [Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -104,7 +104,7 @@
     Blue: Nidoran-F
   types: [Poison]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -114,7 +114,7 @@
     Purple: Nidoran-M
   types: [Poison]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -124,7 +124,7 @@
     Pink: Cleffa
   types: [Fairy]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -135,7 +135,7 @@
     White: Vulpix-Alola
   types: [Fire]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -145,7 +145,7 @@
     Pink: Igglybuff
   types: [Normal, Fairy]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -155,7 +155,7 @@
     Purple: Zubat
   types: [Poison, Flying]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -164,8 +164,8 @@
   color:
     Blue: Oddish
   types: [Grass, Poison]
-  tier: PU
-  doublesTier: PU
+  tier: NU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -175,7 +175,7 @@
     Red: Paras
   types: [Bug, Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -185,7 +185,7 @@
     Purple: Venonat
   types: [Bug, Poison]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -195,7 +195,7 @@
     Brown: Diglett
   types: [Ground]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -206,7 +206,7 @@
     Blue: Meowth-Alola
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -216,7 +216,7 @@
     Yellow: Psyduck
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -226,7 +226,7 @@
     Brown: Mankey
   types: [Fighting]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -256,7 +256,7 @@
     Brown: Abra
   types: [Psychic]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: OU
@@ -268,7 +268,7 @@
     Gray: Machop
   types: [Fighting]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -278,7 +278,7 @@
     Green: Bellsprout
   types: [Grass, Poison]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -288,7 +288,7 @@
     Blue: Tentacool
   types: [Water, Poison]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -299,7 +299,7 @@
     Gray: Geodude-Alola
   types: [Rock, Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -309,7 +309,7 @@
     Yellow: Ponyta
   types: [Fire]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -319,7 +319,7 @@
     Pink: Slowpoke
   types: [Water, Psychic]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: OU
@@ -331,7 +331,7 @@
     Gray: Magnemite
   types: [Electric, Steel]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -341,7 +341,7 @@
     Brown: Doduo
   types: [Normal, Flying]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -351,7 +351,7 @@
     White: Seel
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -362,7 +362,7 @@
     Green: Grimer-Alola
   types: [Poison]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -372,7 +372,7 @@
     Purple: Shellder
   types: [Water]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -382,7 +382,7 @@
     Purple: Gastly
   types: [Ghost, Poison]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: Uber
@@ -394,7 +394,7 @@
     Gray: Onix
   types: [Rock, Ground]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: UU
@@ -406,7 +406,7 @@
     Yellow: Drowzee
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -416,7 +416,7 @@
     Red: Krabby
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -426,7 +426,7 @@
     Red: Voltorb
   types: [Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -436,7 +436,7 @@
     Pink: Exeggcute
   types: [Grass, Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -456,7 +456,7 @@
     Purple: Tyrogue
   types: [Fighting]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -466,7 +466,7 @@
     Pink: Lickitung
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -476,7 +476,7 @@
     Purple: Koffing
   types: [Poison]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -486,7 +486,7 @@
     Gray: Rhyhorn
   types: [Ground, Rock]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -496,7 +496,7 @@
     Pink: Happiny
   types: [Normal]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -506,7 +506,7 @@
     Blue: Tangela
   types: [Grass]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -526,7 +526,7 @@
     Red: Goldeen
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -536,7 +536,7 @@
     Brown: Staryu
   types: [Water]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -546,7 +546,7 @@
     Pink: Mime Jr.
   types: [Psychic, Fairy]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -556,7 +556,7 @@
     Green: Scyther
   types: [Bug, Flying]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
     tier: OU
@@ -568,7 +568,7 @@
     Pink: Smoochum
   types: [Ice, Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -578,7 +578,7 @@
     Yellow: Elekid
   types: [Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -588,7 +588,7 @@
     Red: Magby
   types: [Fire]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -618,7 +618,7 @@
     Blue: Omanyte
   types: [Rock, Water]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -628,7 +628,7 @@
     Brown: Kabuto
   types: [Rock, Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -648,7 +648,7 @@
     Blue: Articuno
   types: [Ice, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -668,7 +668,7 @@
     Yellow: Moltres
   types: [Fire, Flying]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -678,7 +678,7 @@
     Blue: Dratini
   types: [Dragon]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -700,7 +700,7 @@
     Pink: Mew
   types: [Psychic]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -710,7 +710,7 @@
     Green: Chikorita
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -719,8 +719,8 @@
   color:
     Yellow: Cyndaquil
   types: [Fire]
-  tier: PU
-  doublesTier: PU
+  tier: NU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -730,7 +730,7 @@
     Blue: Totodile
   types: [Water]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -740,7 +740,7 @@
     Brown: Sentret
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -750,7 +750,7 @@
     Brown: Hoothoot
   types: [Normal, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -760,7 +760,7 @@
     Red: Ledyba
   types: [Bug, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -770,7 +770,7 @@
     Green: Spinarak
   types: [Bug, Poison]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -780,7 +780,7 @@
     Blue: Chinchou
   types: [Water, Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -790,7 +790,7 @@
     White: Togepi
   types: [Fairy]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -800,7 +800,7 @@
     Green: Natu
   types: [Psychic, Flying]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -810,9 +810,11 @@
     White: Mareep
   types: [Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Azurill
   legendary: false
@@ -820,7 +822,7 @@
     Blue: Azurill
   types: [Normal, Fairy]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -830,7 +832,7 @@
     Brown: Bonsly
   types: [Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -840,7 +842,7 @@
     Pink: Hoppip
   types: [Grass, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -850,7 +852,7 @@
     Purple: Aipom
   types: [Normal]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -860,7 +862,7 @@
     Red: Yanma
   types: [Bug, Flying]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -870,7 +872,7 @@
     Blue: Wooper
   types: [Water, Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -880,7 +882,7 @@
     Black: Murkrow
   types: [Dark, Flying]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -890,7 +892,7 @@
     Gray: Misdreavus
   types: [Ghost]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -900,7 +902,7 @@
     Blue: Wynaut
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -910,7 +912,7 @@
     Gray: Pineco
   types: [Bug]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -920,7 +922,7 @@
     Purple: Gligar
   types: [Ground, Flying]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -930,7 +932,7 @@
     Pink: Snubbull
   types: [Fairy]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -950,7 +952,7 @@
     Brown: Teddiursa
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -960,7 +962,7 @@
     Red: Slugma
   types: [Fire]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -970,7 +972,7 @@
     Brown: Swinub
   types: [Ice, Ground]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -980,7 +982,7 @@
     Gray: Remoraid
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -990,7 +992,7 @@
     Blue: Mantyke
   types: [Water, Flying]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1000,7 +1002,7 @@
     Black: Houndour
   types: [Dark, Fire]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
     tier: OU
@@ -1012,7 +1014,7 @@
     Blue: Phanpy
   types: [Ground]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -1022,7 +1024,7 @@
     Yellow: Raikou
   types: [Electric]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -1032,7 +1034,7 @@
     Brown: Entei
   types: [Fire]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -1084,7 +1086,7 @@
     Green: Celebi
   types: [Psychic, Grass]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 2
   mega:
 
@@ -1094,7 +1096,7 @@
     Green: Treecko
   types: [Grass]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: UU
@@ -1106,7 +1108,7 @@
     Red: Torchic
   types: [Fire]
   tier: Uber
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: Uber
@@ -1118,11 +1120,11 @@
     Blue: Mudkip
   types: [Water]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
-    tier: UU
-    doublesTier: UU
+    tier: OU
+    doublesTier: OU
 
 - name: Poochyena
   legendary: false
@@ -1130,7 +1132,7 @@
     Gray: Poochyena
   types: [Dark]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1140,7 +1142,7 @@
     Brown: Zigzagoon
   types: [Normal]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1150,7 +1152,7 @@
     Green: Lotad
   types: [Water, Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1160,7 +1162,7 @@
     Brown: Seedot
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1170,7 +1172,7 @@
     Blue: Taillow
   types: [Normal, Flying]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1179,7 +1181,7 @@
   color:
     White: Wingull
   types: [Water, Flying]
-  tier: UU
+  tier: OU
   doublesTier: OU
   gen: 3
   mega:
@@ -1190,7 +1192,7 @@
     White: Ralts
   types: [Psychic, Fairy]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: OU
@@ -1202,7 +1204,7 @@
     Blue: Surskit
   types: [Bug, Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1212,7 +1214,7 @@
     Brown: Shroomish
   types: [Grass]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1222,7 +1224,7 @@
     Brown: Slakoth
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1232,7 +1234,7 @@
     Gray: Nincada
   types: [Bug, Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1242,7 +1244,7 @@
     Pink: Whismur
   types: [Normal]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1252,7 +1254,7 @@
     Yellow: Makuhita
   types: [Fighting]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1262,7 +1264,7 @@
     Gray: Nosepass
   types: [Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1272,7 +1274,7 @@
     Pink: Skitty
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1282,11 +1284,11 @@
     Gray: Aron
   types: [Steel, Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Meditite
   legendary: false
@@ -1294,7 +1296,7 @@
     Blue: Meditite
   types: [Fighting, Psychic]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: OU
@@ -1306,7 +1308,7 @@
     Green: Electrike
   types: [Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: OU
@@ -1318,7 +1320,7 @@
     Green: Budew
   types: [Grass, Poison]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1328,7 +1330,7 @@
     Green: Gulpin
   types: [Poison]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1338,7 +1340,7 @@
     Red: Carvanha
   types: [Water, Dark]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: UU
@@ -1350,7 +1352,7 @@
     Blue: Wailmer
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1360,11 +1362,11 @@
     Yellow: Numel
   types: [Fire, Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Spoink
   legendary: false
@@ -1372,7 +1374,7 @@
     Black: Spoink
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1382,7 +1384,7 @@
     Brown: Trapinch
   types: [Ground]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1392,7 +1394,7 @@
     Green: Cacnea
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1402,9 +1404,11 @@
     Blue: Swablu
   types: [Normal, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Barboach
   legendary: false
@@ -1412,7 +1416,7 @@
     Gray: Barboach
   types: [Water, Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1422,7 +1426,7 @@
     Red: Corphish
   types: [Water]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1432,7 +1436,7 @@
     Brown: Baltoy
   types: [Ground, Psychic]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1442,7 +1446,7 @@
     Purple: Lileep
   types: [Rock, Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1452,7 +1456,7 @@
     Gray: Anorith
   types: [Rock, Bug]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1472,11 +1476,11 @@
     Black: Shuppet
   types: [Ghost]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Duskull
   legendary: false
@@ -1484,7 +1488,7 @@
     Black: Duskull
   types: [Ghost]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1494,7 +1498,7 @@
     Yellow: Chingling
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1504,7 +1508,7 @@
     Gray: Snorunt
   types: [Ice]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: RU
@@ -1516,7 +1520,7 @@
     Blue: Spheal
   types: [Ice, Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1526,7 +1530,7 @@
     Blue: Clamperl
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1536,7 +1540,7 @@
     Blue: Bagon
   types: [Dragon]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: Uber
@@ -1548,7 +1552,7 @@
     Blue: Beldum
   types: [Steel, Psychic]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
     tier: Uber
@@ -1560,7 +1564,7 @@
     Brown: Regirock
   types: [Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1570,7 +1574,7 @@
     Blue: Regice
   types: [Ice]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1580,7 +1584,7 @@
     Gray: Registeel
   types: [Steel]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1591,9 +1595,11 @@
     Purple: Latias-Mega
   types: [Dragon, Psychic]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Latios
   legendary: true
@@ -1602,9 +1608,11 @@
     Purple: Latios-Mega
   types: [Dragon, Psychic]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Kyogre
   legendary: true
@@ -1652,7 +1660,7 @@
     Red: Deoxys
   types: [Psychic]
   tier: Uber
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1672,7 +1680,7 @@
     Red: Deoxys-Defense
   types: [Psychic]
   tier: Uber
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1682,7 +1690,7 @@
     Red: Deoxys-Speed
   types: [Psychic]
   tier: Uber
-  doublesTier: PU
+  doublesTier: NU
   gen: 3
   mega:
 
@@ -1692,7 +1700,7 @@
     Green: Turtwig
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1702,7 +1710,7 @@
     Brown: Chimchar
   types: [Fire]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1712,7 +1720,7 @@
     Blue: Piplup
   types: [Water]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1722,7 +1730,7 @@
     Brown: Starly
   types: [Normal, Flying]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1732,7 +1740,7 @@
     Brown: Bidoof
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1742,7 +1750,7 @@
     Blue: Shinx
   types: [Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1752,7 +1760,7 @@
     Blue: Cranidos
   types: [Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1762,7 +1770,7 @@
     Gray: Shieldon
   types: [Rock, Steel]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1772,7 +1780,7 @@
     Brown: Buizel
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1782,7 +1790,7 @@
     Pink: Cherubi
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1802,7 +1810,7 @@
     Purple: Drifloon
   types: [Ghost, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1812,7 +1820,7 @@
     Brown: Buneary
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
     tier: OU
@@ -1824,7 +1832,7 @@
     Gray: Glameow
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1834,7 +1842,7 @@
     Purple: Stunky
   types: [Poison, Dark]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1844,7 +1852,7 @@
     Green: Bronzor
   types: [Steel, Psychic]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1866,7 +1874,7 @@
     Blue: Riolu
   types: [Fighting]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
     tier: Uber
@@ -1878,7 +1886,7 @@
     Brown: Hippopotas
   types: [Ground]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1888,7 +1896,7 @@
     Purple: Skorupi
   types: [Poison, Bug]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1898,7 +1906,7 @@
     Blue: Croagunk
   types: [Poison, Fighting]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1908,7 +1916,7 @@
     Blue: Finneon
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1918,11 +1926,11 @@
     White: Snover
   types: [Grass, Ice]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Uxie
   legendary: true
@@ -1930,7 +1938,7 @@
     Yellow: Uxie
   types: [Psychic]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1939,8 +1947,8 @@
   color:
     Pink: Mesprit
   types: [Psychic]
-  tier: PU
-  doublesTier: PU
+  tier: NU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1950,7 +1958,7 @@
     Blue: Azelf
   types: [Psychic]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -1990,7 +1998,7 @@
     White: Regigigas
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -2030,7 +2038,7 @@
     Blue: Manaphy
   types: [Water]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -2040,7 +2048,7 @@
     Black: Darkrai
   types: [Dark]
   tier: Uber
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -2050,7 +2058,7 @@
     Green: Shaymin
   types: [Grass]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -2060,7 +2068,7 @@
     Green: Shaymin-Sky
   types: [Grass, Flying]
   tier: Uber
-  doublesTier: PU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -2081,7 +2089,7 @@
     Yellow: Victini
   types: [Psychic, Fire]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2091,7 +2099,7 @@
     Green: Snivy
   types: [Grass]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2101,7 +2109,7 @@
     Red: Tepig
   types: [Fire]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2111,7 +2119,7 @@
     Blue: Oshawott
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2121,7 +2129,7 @@
     Brown: Patrat
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2131,7 +2139,7 @@
     Brown: Lillipup
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2141,7 +2149,7 @@
     Purple: Purrloin
   types: [Dark]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2151,7 +2159,7 @@
     Green: Pansage
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2161,7 +2169,7 @@
     Red: Pansear
   types: [Fire]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2171,7 +2179,7 @@
     Blue: Panpour
   types: [Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2181,7 +2189,7 @@
     Pink: Munna
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2191,7 +2199,7 @@
     Gray: Pidove
   types: [Normal, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2201,7 +2209,7 @@
     Black: Blitzle
   types: [Electric]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2221,7 +2229,7 @@
     Blue: Woobat
   types: [Psychic, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2241,7 +2249,7 @@
     Gray: Timburr
   types: [Fighting]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2251,7 +2259,7 @@
     Blue: Tympole
   types: [Water]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2261,7 +2269,7 @@
     Yellow: Sewaddle
   types: [Bug, Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2271,7 +2279,7 @@
     Red: Venipede
   types: [Bug, Poison]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2291,7 +2299,7 @@
     Green: Petilil
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2301,7 +2309,7 @@
     Brown: Sandile
   types: [Ground, Dark]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2311,7 +2319,7 @@
     Red: Darumaka
   types: [Fire]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2321,7 +2329,7 @@
     Red: Dwebble
   types: [Bug, Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2341,7 +2349,7 @@
     Black: Yamask
   types: [Ghost]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2351,7 +2359,7 @@
     Blue: Tirtouga
   types: [Water, Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2361,7 +2369,7 @@
     Yellow: Archen
   types: [Rock, Flying]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2371,7 +2379,7 @@
     Green: Trubbish
   types: [Poison]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2381,7 +2389,7 @@
     Gray: Zorua
   types: [Dark]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2390,8 +2398,8 @@
   color:
     Gray: Minccino
   types: [Normal]
-  tier: PU
-  doublesTier: PU
+  tier: NU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2401,7 +2409,7 @@
     Purple: Gothita
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2411,7 +2419,7 @@
     Green: Solosis
   types: [Psychic]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2421,7 +2429,7 @@
     Blue: Ducklett
   types: [Water, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2431,7 +2439,7 @@
     White: Vanillite
   types: [Ice]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2441,7 +2449,7 @@
     Pink: Deerling
   types: [Normal, Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2451,7 +2459,7 @@
     Blue: Karrablast
   types: [Bug]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2471,7 +2479,7 @@
     White: Frillish
   types: [Water, Ghost]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2481,7 +2489,7 @@
     Yellow: Joltik
   types: [Bug, Electric]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2501,7 +2509,7 @@
     Gray: Klink
   types: [Steel]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2511,7 +2519,7 @@
     Blue: Elgyem
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2521,7 +2529,7 @@
     White: Litwick
   types: [Ghost, Fire]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2531,7 +2539,7 @@
     Green: Axew
   types: [Dragon]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2541,7 +2549,7 @@
     White: Cubchoo
   types: [Ice]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2551,7 +2559,7 @@
     Red: Shelmet
   types: [Bug]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2561,7 +2569,7 @@
     Yellow: Mienfoo
   types: [Fighting]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2571,7 +2579,7 @@
     Green: Golett
   types: [Ground, Ghost]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2581,7 +2589,7 @@
     Red: Pawniard
   types: [Dark, Steel]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2591,7 +2599,7 @@
     White: Rufflet
   types: [Normal, Flying]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2601,7 +2609,7 @@
     Brown: Vullaby
   types: [Dark, Flying]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2611,7 +2619,7 @@
     Blue: Deino
   types: [Dark, Dragon]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2631,7 +2639,7 @@
     Blue: Cobalion
   types: [Steel, Fighting]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2651,7 +2659,7 @@
     Green: Virizion
   types: [Grass, Fighting]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2661,7 +2669,7 @@
     Green: Tornadus
   types: [Flying]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2671,7 +2679,7 @@
     Green: Tornadus-Therian
   types: [Flying]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2681,7 +2689,7 @@
     Blue: Thundurus
   types: [Electric, Flying]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2691,7 +2699,7 @@
     Blue: Thundurus-Therian
   types: [Electric, Flying]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2721,7 +2729,7 @@
     Brown: Landorus
   types: [Ground, Flying]
   tier: Uber
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2741,7 +2749,7 @@
     Gray: Kyurem
   types: [Dragon, Ice]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2771,7 +2779,7 @@
     Yellow: Keldeo
   types: [Water, Fighting]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2781,7 +2789,7 @@
     White: Meloetta
   types: [Normal, Psychic]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2801,7 +2809,7 @@
     Green: Chespin
   types: [Grass]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2811,7 +2819,7 @@
     Red: Fennekin
   types: [Fire]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2821,7 +2829,7 @@
     Blue: Froakie
   types: [Water]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2831,7 +2839,7 @@
     Brown: Bunnelby
   types: [Normal]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2841,7 +2849,7 @@
     Red: Fletchling
   types: [Normal, Flying]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2851,7 +2859,7 @@
     Brown: Litleo
   types: [Fire, Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2861,7 +2869,7 @@
     White: Flabebe
   types: [Fairy]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2871,7 +2879,7 @@
     Brown: Skiddo
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2881,7 +2889,7 @@
     White: Pancham
   types: [Fighting]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2891,7 +2899,7 @@
     Gray: Espurr
   types: [Psychic]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2911,7 +2919,7 @@
     Pink: Spritzee
   types: [Fairy]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2921,7 +2929,7 @@
     White: Swirlix
   types: [Fairy]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2930,8 +2938,8 @@
   color:
     Blue: Inkay
   types: [Dark, Psychic]
-  tier: PU
-  doublesTier: PU
+  tier: NU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2941,7 +2949,7 @@
     Brown: Binacle
   types: [Rock, Water]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2951,7 +2959,7 @@
     Brown: Skrelp
   types: [Poison, Water]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2961,7 +2969,7 @@
     Blue: Clauncher
   types: [Water]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2971,7 +2979,7 @@
     Yellow: Helioptile
   types: [Electric, Normal]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2981,7 +2989,7 @@
     Brown: Tyrunt
   types: [Rock, Dragon]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -2990,8 +2998,8 @@
   color:
     Blue: Amaura
   types: [Rock, Ice]
-  tier: PU
-  doublesTier: PU
+  tier: NU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3001,7 +3009,7 @@
     Purple: Goomy
   types: [Dragon]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3011,7 +3019,7 @@
     Brown: Phantump
   types: [Ghost, Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3021,7 +3029,7 @@
     Brown: Pumpkaboo
   types: [Ghost, Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3031,7 +3039,7 @@
     Blue: Bergmite
   types: [Ice]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3041,7 +3049,7 @@
     Purple: Noibat
   types: [Flying, Dragon]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3071,7 +3079,7 @@
     Green: Zygarde
   types: [Dragon, Ground]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3091,7 +3099,7 @@
     Purple: Hoopa
   types: [Psychic, Ghost]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 6
   mega:
 
@@ -3111,7 +3119,7 @@
     Brown: Rowlet
   types: [Grass, Flying]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3121,7 +3129,7 @@
     Red: Litten
   types: [Fire]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3131,7 +3139,7 @@
     Blue: Popplio
   types: [Water]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3141,7 +3149,7 @@
     Black: Pikipek
   types: [Normal, Flying]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3151,7 +3159,7 @@
     Brown: Yungoos
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3161,7 +3169,7 @@
     Gray: Grubbin
   types: [Bug]
   tier: NU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3171,7 +3179,7 @@
     Purple: Crabrawler
   types: [Fighting]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3181,7 +3189,7 @@
     Yellow: Cutiefly
   types: [Bug, Fairy]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3191,7 +3199,7 @@
     Brown: Rockruff
   types: [Rock]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3201,7 +3209,7 @@
     Blue: Mareanie
   types: [Poison, Water]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3211,7 +3219,7 @@
     Brown: Mudbray
   types: [Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3221,7 +3229,7 @@
     Green: Dewpider
   types: [Water, Bug]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3231,7 +3239,7 @@
     Pink: Fomantis
   types: [Grass]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3241,7 +3249,7 @@
     Purple: Morelull
   types: [Grass, Fairy]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3251,7 +3259,7 @@
     Black: Salandit
   types: [Poison, Fire]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3261,7 +3269,7 @@
     Pink: Stufful
   types: [Normal, Fighting]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3271,7 +3279,7 @@
     Purple: Bounsweet
   types: [Grass]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3281,7 +3289,7 @@
     Gray: Wimpod
   types: [Bug, Water]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3291,7 +3299,7 @@
     Brown: Sandygast
   types: [Ghost, Ground]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3301,7 +3309,7 @@
     Gray: Silvally
   types: [Normal]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3311,7 +3319,7 @@
     Gray: Jangmo-o
   types: [Dragon]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3381,7 +3389,7 @@
     White: Nihilego
   types: [Rock, Poison]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3391,7 +3399,7 @@
     Red: Buzzwole
   types: [Bug, Fighting]
   tier: OU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3411,7 +3419,7 @@
     Black: Xurkitree
   types: [Electric]
   tier: UU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3441,7 +3449,7 @@
     Black: Guzzlord
   types: [Dark, Dragon]
   tier: PU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
@@ -3451,7 +3459,7 @@
     Black: Necrozma
   types: [Psychic]
   tier: RU
-  doublesTier: PU
+  doublesTier: NU
   gen: 7
   mega:
 
