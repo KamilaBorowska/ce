@@ -2,20 +2,20 @@
 
 // TODO: Make this entire thing cleaner
 
-var formatsData = require('pokemon-showdown/data/formats-data').BattleFormatsData
-var pokedex = require('pokemon-showdown/data/pokedex').BattlePokedex
-var items = require('pokemon-showdown/data/items').BattleItems
-var doublesFormatsData = Object.create(formatsData)
-var formats = require('pokemon-showdown/config/formats').Formats
+const formatsData = require('pokemon-showdown/data/formats-data').BattleFormatsData
+const pokedex = require('pokemon-showdown/data/pokedex').BattlePokedex
+const items = require('pokemon-showdown/data/items').BattleItems
+const doublesFormatsData = Object.create(formatsData)
+const formats = require('pokemon-showdown/config/formats').Formats
 
-var formatHandlers = {
+const formatHandlers = {
     '[Gen 7] Doubles OU': 'Uber',
     '[Gen 7] Doubles UU': 'OU',
 }
 
-var banlists = {}
+const banlists = {}
 
-for (var pokemonid in doublesFormatsData) {
+for (const pokemonid in doublesFormatsData) {
     doublesFormatsData[pokemonid] = Object.create(doublesFormatsData[pokemonid])
     doublesFormatsData[pokemonid].tier = 'NU'
 }
@@ -24,15 +24,15 @@ formats.forEach(function searchFormats(format) {
     if (!format.name) {
         return
     }
-    var tier = formatHandlers[format.name]
+    const tier = formatHandlers[format.name]
     if (tier) {
         format.banlist.forEach(function applyBanlist(entry) {
-            var id = toId(entry)
-            var item = items[id]
+            const id = toId(entry)
+            const item = items[id]
             if (item && item.megaEvolves) {
                 doublesFormatsData[toId(item.megaStone)].tier = tier
             }
-            var pokemon = doublesFormatsData[id]
+            const pokemon = doublesFormatsData[id]
             if (pokemon) {
                 pokemon.tier = tier
             }
@@ -45,8 +45,8 @@ function toId(name) {
 }
 
 function searchTier(formatsData, pokemonid, findMega) {
-    var pokemon = pokedex[pokemonid]
-    var tiers = {
+    const pokemon = pokedex[pokemonid]
+    const tiers = {
         Uber: 0,
         OU: 1,
         BL: 1,
@@ -62,13 +62,13 @@ function searchTier(formatsData, pokemonid, findMega) {
         LC: 5,
         'LC Uber': 5,
     }
-    var reverseTier = ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU']
-    var evos = pokemon.evos || []
+    const reverseTier = ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU']
+    let evos = pokemon.evos || []
     if (findMega) {
         evos = evos.concat(pokemon.otherFormes || [])
     }
-    var currentTier = formatsData[pokemonid].tier
-    var toSearch = evos.map(function recursiveSearch(evo) {
+    const currentTier = formatsData[pokemonid].tier
+    const toSearch = evos.map(function recursiveSearch(evo) {
         return searchTier(formatsData, evo, findMega)
     }).concat(currentTier)
     return reverseTier[Math.min.apply(Math, toSearch.map(function toTierValue(tier) {
@@ -84,17 +84,17 @@ function hasMega(pokemon) {
         return false // too broken
     }
     if (pokemon.otherFormes) {
-        for (var i = 0; i < pokemon.otherFormes.length; i++) {
-            var id = pokemon.otherFormes[i]
-            var forme = pokedex[id]
+        for (let i = 0; i < pokemon.otherFormes.length; i++) {
+            const id = pokemon.otherFormes[i]
+            const forme = pokedex[id]
             if (forme.forme.substring(0, 4) === 'Mega') {
                 return formatsData[id].tier !== "Unreleased"
             }
         }
         return false
     }
-    var evos = pokemon.evos || []
-    for (var i = 0; i < evos.length; i++) {
+    const evos = pokemon.evos || []
+    for (let i = 0; i < evos.length; i++) {
         if (hasMega(pokedex[evos[i]])) {
             return true
         }
@@ -112,11 +112,11 @@ function gen(num) {
     return 7
 }
 
-var banned = {
+const banned = {
     burmy: 1, caterpie: 1, combee: 1, kricketot: 1, magikarp: 1, scatterbug: 1,
     sunkern: 1, tynamo: 1, weedle: 1, wurmple: 1, typenull: 1, cosmog: 1,
 }
-var legendaries = {
+const legendaries = {
     articuno: 1, zapdos: 1, moltres: 1, mewtwo: 1, mew: 1, raikou: 1,
     entei: 1, suicune: 1, lugia: 1, hooh: 1, celebi: 1, regirock: 1,
     regice: 1, registeel: 1, latias: 1, latios: 1, kyogre: 1, groudon: 1,
@@ -135,16 +135,16 @@ var legendaries = {
     magearna: 1
 }
 
-var fs = require('fs')
-var output = fs.openSync('_data/pokemon.yml', 'w')
+const fs = require('fs')
+const output = fs.openSync('_data/pokemon.yml', 'w')
 
-for (var pokemonid in formatsData) {
-    var pokemon = pokedex[pokemonid]
-    var format = formatsData[pokemonid]
+for (const pokemonid in formatsData) {
+    const pokemon = pokedex[pokemonid]
+    const format = formatsData[pokemonid]
     if (!legendaries[pokemonid] && (!pokemon || pokemon.prevo || !pokemon.evos || pokemon.forme || format.isNonstandard || banned[pokemonid])) continue
 
-    var mega = false
-    var tier = format.tier
+    const mega = false
+    const tier = format.tier
     fs.writeSync(output, '- name: ' + pokemon.species + '\n')
     fs.writeSync(output, '  legendary: ' + !!legendaries[pokemonid] + '\n')
     const colors = new Map([[pokemon.color, pokemon.species]])
@@ -159,8 +159,8 @@ for (var pokemonid in formatsData) {
         fs.writeSync(output, `    ${color}: ${specie}\n`)
     }
     fs.writeSync(output, '  types: [' + pokemon.types.join(', ') + ']\n')
-    var singlesTier = searchTier(formatsData, pokemonid, false)
-    var doublesTier = searchTier(doublesFormatsData, pokemonid, false, [])
+    const singlesTier = searchTier(formatsData, pokemonid, false)
+    const doublesTier = searchTier(doublesFormatsData, pokemonid, false, [])
     fs.writeSync(output, '  tier: ' + singlesTier + '\n')
     fs.writeSync(output, '  doublesTier: ' + doublesTier + '\n')
     fs.writeSync(output, '  gen: ' + gen(pokemon.num) + '\n')
