@@ -2508,7 +2508,7 @@
   color:
     Gray: Klink
   types: [Steel]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 5
   mega:
@@ -3092,6 +3092,8 @@
   doublesTier: OU
   gen: 6
   mega:
+    tier: OU
+    doublesTier: OU
 
 - name: Hoopa
   legendary: true
