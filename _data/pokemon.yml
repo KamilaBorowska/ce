@@ -1253,7 +1253,7 @@
   color:
     Yellow: Makuhita
   types: [Fighting]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 3
   mega:
@@ -2118,7 +2118,7 @@
   color:
     Blue: Oshawott
   types: [Water]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 5
   mega:
@@ -2418,7 +2418,7 @@
   color:
     Green: Solosis
   types: [Psychic]
-  tier: RU
+  tier: UU
   doublesTier: NU
   gen: 5
   mega:
@@ -2788,7 +2788,7 @@
   color:
     White: Meloetta
   types: [Normal, Psychic]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 5
   mega:
@@ -2948,7 +2948,7 @@
   color:
     Brown: Binacle
   types: [Rock, Water]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 6
   mega:
