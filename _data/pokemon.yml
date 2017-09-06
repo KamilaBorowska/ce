@@ -4,7 +4,7 @@
     Green: Bulbasaur
   types: [Grass, Poison]
   tier: RU
-  doublesTier: OU
+  doublesTier: NU
   gen: 1
   mega:
     tier: OU
@@ -103,7 +103,7 @@
   color:
     Blue: Nidoran-F
   types: [Poison]
-  tier: UU
+  tier: RU
   doublesTier: NU
   gen: 1
   mega:
@@ -267,7 +267,7 @@
   color:
     Gray: Machop
   types: [Fighting]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 1
   mega:
@@ -515,7 +515,7 @@
   color:
     Blue: Horsea
   types: [Water]
-  tier: RU
+  tier: OU
   doublesTier: OU
   gen: 1
   mega:
@@ -598,7 +598,7 @@
     Brown: Eevee
   types: [Normal]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 1
   mega:
 
@@ -813,8 +813,8 @@
   doublesTier: NU
   gen: 2
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Azurill
   legendary: false
@@ -871,7 +871,7 @@
   color:
     Blue: Wooper
   types: [Water, Ground]
-  tier: PU
+  tier: RU
   doublesTier: NU
   gen: 2
   mega:
@@ -991,7 +991,7 @@
   color:
     Blue: Mantyke
   types: [Water, Flying]
-  tier: RU
+  tier: UU
   doublesTier: NU
   gen: 4
   mega:
@@ -1152,7 +1152,7 @@
     Green: Lotad
   types: [Water, Grass]
   tier: PU
-  doublesTier: NU
+  doublesTier: OU
   gen: 3
   mega:
 
@@ -1311,8 +1311,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Budew
   legendary: false
@@ -1365,8 +1365,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: UU
-    doublesTier: UU
+    tier: RU
+    doublesTier: RU
 
 - name: Spoink
   legendary: false
@@ -1407,8 +1407,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Barboach
   legendary: false
@@ -1479,8 +1479,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: UU
-    doublesTier: UU
+    tier: RU
+    doublesTier: RU
 
 - name: Duskull
   legendary: false
@@ -1507,7 +1507,7 @@
   color:
     Gray: Snorunt
   types: [Ice]
-  tier: RU
+  tier: NU
   doublesTier: NU
   gen: 3
   mega:
@@ -1598,8 +1598,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: OU
-    doublesTier: OU
+    tier: UU
+    doublesTier: UU
 
 - name: Latios
   legendary: true
@@ -1649,7 +1649,7 @@
   color:
     Yellow: Jirachi
   types: [Steel, Psychic]
-  tier: OU
+  tier: UU
   doublesTier: OU
   gen: 3
   mega:
@@ -1852,7 +1852,7 @@
     Green: Bronzor
   types: [Steel, Psychic]
   tier: RU
-  doublesTier: NU
+  doublesTier: OU
   gen: 4
   mega:
 
@@ -1895,7 +1895,7 @@
   color:
     Purple: Skorupi
   types: [Poison, Bug]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 4
   mega:
@@ -1929,8 +1929,8 @@
   doublesTier: NU
   gen: 4
   mega:
-    tier: UU
-    doublesTier: UU
+    tier: RU
+    doublesTier: RU
 
 - name: Uxie
   legendary: true
@@ -1947,7 +1947,7 @@
   color:
     Pink: Mesprit
   types: [Psychic]
-  tier: NU
+  tier: PU
   doublesTier: NU
   gen: 4
   mega:
@@ -2028,7 +2028,7 @@
     Yellow: Cresselia
   types: [Psychic]
   tier: RU
-  doublesTier: OU
+  doublesTier: NU
   gen: 4
   mega:
 
@@ -2219,7 +2219,7 @@
     Blue: Roggenrola
   types: [Rock]
   tier: RU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -2368,7 +2368,7 @@
   color:
     Yellow: Archen
   types: [Rock, Flying]
-  tier: NU
+  tier: PU
   doublesTier: NU
   gen: 5
   mega:
@@ -2438,7 +2438,7 @@
   color:
     White: Vanillite
   types: [Ice]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 5
   mega:
@@ -2649,7 +2649,7 @@
     Gray: Terrakion
   types: [Rock, Fighting]
   tier: UU
-  doublesTier: OU
+  doublesTier: NU
   gen: 5
   mega:
 
@@ -3120,7 +3120,7 @@
   color:
     Brown: Rowlet
   types: [Grass, Flying]
-  tier: UU
+  tier: RU
   doublesTier: NU
   gen: 7
   mega:
@@ -3280,7 +3280,7 @@
   color:
     Purple: Bounsweet
   types: [Grass]
-  tier: UU
+  tier: RU
   doublesTier: NU
   gen: 7
   mega:
@@ -3390,7 +3390,7 @@
   color:
     White: Nihilego
   types: [Rock, Poison]
-  tier: OU
+  tier: UU
   doublesTier: NU
   gen: 7
   mega:
@@ -3411,7 +3411,7 @@
     White: Pheromosa
   types: [Bug, Fighting]
   tier: Uber
-  doublesTier: OU
+  doublesTier: NU
   gen: 7
   mega:
 
