@@ -1,9 +1,12 @@
 exclude:
+- Gemfile
+- Gemfile.lock
 - node_modules
+- package.json
 - vendor
 - tools
 - test
-- LICENSE.txt
+- LICENSE.md
 - README.md
 
 gems:
