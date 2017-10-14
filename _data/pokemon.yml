@@ -15,7 +15,7 @@
   color:
     Red: Charmander
   types: [Fire]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 1
   mega:
@@ -194,7 +194,7 @@
   color:
     Brown: Diglett
   types: [Ground]
-  tier: OU
+  tier: UU
   doublesTier: NU
   gen: 1
   mega:
@@ -813,8 +813,8 @@
   doublesTier: NU
   gen: 2
   mega:
-    tier: UU
-    doublesTier: UU
+    tier: RU
+    doublesTier: RU
 
 - name: Azurill
   legendary: false
@@ -1339,7 +1339,7 @@
   color:
     Red: Carvanha
   types: [Water, Dark]
-  tier: RU
+  tier: UU
   doublesTier: NU
   gen: 3
   mega:
@@ -1649,7 +1649,7 @@
   color:
     Yellow: Jirachi
   types: [Steel, Psychic]
-  tier: UU
+  tier: OU
   doublesTier: OU
   gen: 3
   mega:
@@ -2948,7 +2948,7 @@
   color:
     Brown: Binacle
   types: [Rock, Water]
-  tier: NU
+  tier: RU
   doublesTier: NU
   gen: 6
   mega:
@@ -3450,7 +3450,7 @@
   color:
     Black: Guzzlord
   types: [Dark, Dragon]
-  tier: PU
+  tier: NU
   doublesTier: NU
   gen: 7
   mega:
