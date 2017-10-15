@@ -1,7 +1,7 @@
 {
   "name": "ce",
   "version": "0.1.0",
-  "description": "C&E _data/pokemon.yml generator",
+  "description": "C&E pokemon.yml generator",
   "scripts": {
     "start": "node tools/gen.js",
     "test": "protractor test/conf.js"
