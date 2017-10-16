@@ -34,8 +34,6 @@ describe('C&E Generator', function() {
                 expect(row.element(by.css('[readonly]')).getAttribute('value')).not.toEqual(value)
             })
         })
-        // Force onbeforeunload to not appear
-        element(by.cssContainingText('option', 'Monocolor')).click()
     })
 
     it('should cap participants at 64', function cap() {
