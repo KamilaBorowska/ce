@@ -12,5 +12,8 @@ script:
 env:
   global:
   - DISPLAY=:99.0
+branches:
+  only:
+  - gh-pages
 dist: trusty
 sudo: false
