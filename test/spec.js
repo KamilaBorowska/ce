@@ -34,6 +34,9 @@ describe('C&E Generator', function() {
                 expect(row.element(by.css('[readonly]')).getAttribute('value')).not.toEqual(value)
             })
         })
+        browser.switchTo().alert().then(function (alert) {
+            alert.accept(); 
+        });
     })
 
     it('should cap participants at 64', function cap() {
