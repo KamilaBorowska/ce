@@ -1,7 +1,5 @@
 "use strict"
 
-// TODO: Make this entire thing cleaner
-
 const formatsData = require('pokemon-showdown/data/formats-data').BattleFormatsData
 const pokedex = require('pokemon-showdown/data/pokedex').BattlePokedex
 const items = require('pokemon-showdown/data/items').BattleItems
