@@ -82,8 +82,7 @@ function hasMega(pokemon) {
         return false // too broken
     }
     if (pokemon.otherFormes) {
-        for (let i = 0; i < pokemon.otherFormes.length; i++) {
-            const id = pokemon.otherFormes[i]
+        for (const id of pokemon.otherFormes) {
             const forme = pokedex[id]
             if (forme.forme.substring(0, 4) === 'Mega') {
                 return formatsData[id].tier !== "Unreleased"
@@ -92,8 +91,8 @@ function hasMega(pokemon) {
         return false
     }
     const evos = pokemon.evos || []
-    for (let i = 0; i < evos.length; i++) {
-        if (hasMega(pokedex[evos[i]])) {
+    for (const evo of evos) {
+        if (hasMega(pokedex[evo])) {
             return true
         }
     }
