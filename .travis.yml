@@ -15,5 +15,3 @@ env:
 branches:
   only:
   - gh-pages
-dist: trusty
-sudo: false
