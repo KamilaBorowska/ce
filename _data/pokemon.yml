@@ -194,7 +194,7 @@
   color:
     Brown: Diglett
   types: [Ground]
-  tier: UU
+  tier: RU
   doublesTier: NU
   gen: 1
   mega:
@@ -397,8 +397,8 @@
   doublesTier: NU
   gen: 1
   mega:
-    tier: UU
-    doublesTier: UU
+    tier: RU
+    doublesTier: RU
 
 - name: Drowzee
   legendary: false
