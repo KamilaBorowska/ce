@@ -1598,8 +1598,8 @@
   doublesTier: NU
   gen: 3
   mega:
-    tier: UU
-    doublesTier: UU
+    tier: OU
+    doublesTier: OU
 
 - name: Latios
   legendary: true
@@ -2388,7 +2388,7 @@
   color:
     Gray: Zorua
   types: [Dark]
-  tier: RU
+  tier: UU
   doublesTier: NU
   gen: 5
   mega:
