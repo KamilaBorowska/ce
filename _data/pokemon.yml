@@ -2863,10 +2863,10 @@
   gen: 6
   mega:
 
-- name: Flabebe
+- name: Flabébé
   legendary: false
   color:
-    White: Flabebe
+    White: Flabébé
   types: [Fairy]
   tier: RU
   doublesTier: NU
