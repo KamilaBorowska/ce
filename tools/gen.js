@@ -142,8 +142,8 @@ for (const pokemonid in formatsData) {
 
     const mega = false
     const tier = format.tier
-    fs.writeSync(output, '- name: ' + pokemon.species + '\n')
-    fs.writeSync(output, '  legendary: ' + !!legendaries[pokemonid] + '\n')
+    fs.writeSync(output, '- {name: ' + pokemon.species)
+    fs.writeSync(output, ', legendary: ' + !!legendaries[pokemonid])
     const colors = new Map([[pokemon.color, pokemon.species]])
     for (const formeid of pokemon.otherFormes || []) {
         const formeColor = pokedex[formeid].color
@@ -151,22 +151,23 @@ for (const pokemonid in formatsData) {
             colors.set(formeColor, pokedex[formeid].species)
         }
     }
-    fs.writeSync(output, '  color:\n')
-    for (const [color, specie] of colors) {
-        fs.writeSync(output, `    ${color}: ${specie}\n`)
-    }
-    fs.writeSync(output, '  types: [' + pokemon.types.join(', ') + ']\n')
+    fs.writeSync(output, ', color: {')
+    fs.writeSync(output, Array.from(colors).map(([color, specie]) => `${color}: ${specie}`).join(", "))
+    fs.writeSync(output, '}, types: [' + pokemon.types.join(', ') + ']')
     const singlesTier = searchTier(formatsData, pokemonid, false)
     const doublesTier = searchTier(doublesFormatsData, pokemonid, false, [])
-    fs.writeSync(output, '  tier: ' + singlesTier + '\n')
-    fs.writeSync(output, '  doublesTier: ' + doublesTier + '\n')
-    fs.writeSync(output, '  gen: ' + gen(pokemon.num) + '\n')
-    fs.writeSync(output, '  mega:\n')
+    fs.writeSync(output, ', tier: ' + singlesTier)
+    fs.writeSync(output, ', doublesTier: ' + doublesTier)
+    fs.writeSync(output, ', gen: ' + gen(pokemon.num))
+    fs.writeSync(output, ', mega: ')
     if (hasMega(pokemon)) {
-        fs.writeSync(output, '    tier: ' + searchTier(formatsData, pokemonid, true) + '\n')
-        fs.writeSync(output, '    doublesTier: ' + searchTier(formatsData, pokemonid, true) + '\n')
+        fs.writeSync(output, '{tier: ' + searchTier(formatsData, pokemonid, true))
+        fs.writeSync(output, ', doublesTier: ' + searchTier(formatsData, pokemonid, true))
+        fs.writeSync(output, '}')
+    } else {
+        fs.writeSync(output, 'null')
     }
-    fs.writeSync(output, '\n')
+    fs.writeSync(output, '}\n')
 }
 
 fs.closeSync(output)
