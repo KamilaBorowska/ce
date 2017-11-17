@@ -85,7 +85,7 @@ function hasMega(pokemon) {
         for (const id of pokemon.otherFormes) {
             const forme = pokedex[id]
             if (forme.forme.substring(0, 4) === 'Mega') {
-                return formatsData[id].tier !== "Unreleased"
+                return formatsData[id].tier !== 'Unreleased'
             }
         }
         return false
