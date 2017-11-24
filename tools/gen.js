@@ -129,7 +129,7 @@ const legendaries = {
     silvally: 1, tapukoko: 1, tapulele: 1, tapubulu: 1, tapufini: 1,
     solgaleo: 1, lunala: 1, nihilego: 1, buzzwole: 1, pheromosa: 1,
     xurkitree: 1, celesteela: 1, kartana: 1, guzzlord: 1, necrozma: 1,
-    magearna: 1
+    magearna: 1, marshadow: 1, naganadel: 1, stakataka: 1, blacephalon: 1
 }
 
 const fs = require('fs')
