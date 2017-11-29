@@ -339,7 +339,6 @@
 - {name: Necrozma, legendary: true, color: {Black: Necrozma, Yellow: Necrozma-Dusk-Mane, Blue: Necrozma-Dawn-Wings}, types: [Psychic], tier: RU, doublesTier: NU, gen: 7, mega: null}
 - {name: Magearna, legendary: true, color: {Gray: Magearna, Red: Magearna-Original}, types: [Steel, Fairy], tier: OU, doublesTier: Uber, gen: 7, mega: null}
 - {name: Marshadow, legendary: true, color: {Gray: Marshadow}, types: [Fighting, Ghost], tier: Uber, doublesTier: OU, gen: 7, mega: null}
-- {name: Poipole, legendary: false, color: {Purple: Poipole}, types: [Poison], tier: OU, doublesTier: OU, gen: 7, mega: null}
-- {name: Naganadel, legendary: true, color: {Purple: Naganadel}, types: [Poison, Dragon], tier: OU, doublesTier: OU, gen: 7, mega: null}
+- {name: Naganadel, legendary: true, color: {Purple: Naganadel}, types: [Poison, Dragon], tier: Uber, doublesTier: OU, gen: 7, mega: null}
 - {name: Stakataka, legendary: true, color: {Gray: Stakataka}, types: [Rock, Steel], tier: OU, doublesTier: OU, gen: 7, mega: null}
 - {name: Blacephalon, legendary: true, color: {White: Blacephalon}, types: [Fire, Ghost], tier: OU, doublesTier: OU, gen: 7, mega: null}
