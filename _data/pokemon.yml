@@ -218,7 +218,7 @@
 - {name: Timburr, legendary: false, color: {Gray: Timburr}, types: [Fighting], tier: OU, doublesTier: NU, gen: 5, mega: null}
 - {name: Tympole, legendary: false, color: {Blue: Tympole}, types: [Water], tier: NU, doublesTier: NU, gen: 5, mega: null}
 - {name: Sewaddle, legendary: false, color: {Yellow: Sewaddle}, types: [Bug, Grass], tier: PU, doublesTier: NU, gen: 5, mega: null}
-- {name: Venipede, legendary: false, color: {Red: Venipede}, types: [Bug, Poison], tier: UU, doublesTier: NU, gen: 5, mega: null}
+- {name: Venipede, legendary: false, color: {Red: Venipede}, types: [Bug, Poison], tier: OU, doublesTier: NU, gen: 5, mega: null}
 - {name: Cottonee, legendary: false, color: {Green: Cottonee}, types: [Grass, Fairy], tier: NU, doublesTier: OU, gen: 5, mega: null}
 - {name: Petilil, legendary: false, color: {Green: Petilil}, types: [Grass], tier: PU, doublesTier: NU, gen: 5, mega: null}
 - {name: Sandile, legendary: false, color: {Brown: Sandile}, types: [Ground, Dark], tier: UU, doublesTier: NU, gen: 5, mega: null}
