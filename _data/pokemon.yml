@@ -51,7 +51,6 @@
 - {name: Goldeen, legendary: false, color: {Red: Goldeen}, types: [Water], tier: PU, doublesTier: NU, gen: 1, mega: null}
 - {name: Staryu, legendary: false, color: {Brown: Staryu}, types: [Water], tier: UU, doublesTier: NU, gen: 1, mega: null}
 - {name: Mime Jr., legendary: false, color: {Pink: Mime Jr.}, types: [Psychic, Fairy], tier: PU, doublesTier: NU, gen: 4, mega: null}
-- {name: Scyther, legendary: false, color: {Green: Scyther}, types: [Bug, Flying], tier: UU, doublesTier: NU, gen: 1, mega: {tier: OU, doublesTier: OU}}
 - {name: Smoochum, legendary: false, color: {Pink: Smoochum}, types: [Ice, Psychic], tier: PU, doublesTier: NU, gen: 2, mega: null}
 - {name: Elekid, legendary: false, color: {Yellow: Elekid}, types: [Electric], tier: PU, doublesTier: NU, gen: 2, mega: null}
 - {name: Magby, legendary: false, color: {Red: Magby}, types: [Fire], tier: PU, doublesTier: NU, gen: 2, mega: null}
@@ -88,7 +87,6 @@
 - {name: Wynaut, legendary: false, color: {Blue: Wynaut}, types: [Psychic], tier: PU, doublesTier: NU, gen: 3, mega: null}
 - {name: Pineco, legendary: false, color: {Gray: Pineco}, types: [Bug], tier: UU, doublesTier: NU, gen: 2, mega: null}
 - {name: Snubbull, legendary: false, color: {Pink: Snubbull}, types: [Fairy], tier: PU, doublesTier: NU, gen: 2, mega: null}
-- {name: Sneasel, legendary: false, color: {Black: Sneasel}, types: [Dark, Ice], tier: OU, doublesTier: NU, gen: 2, mega: null}
 - {name: Teddiursa, legendary: false, color: {Brown: Teddiursa}, types: [Normal], tier: PU, doublesTier: NU, gen: 2, mega: null}
 - {name: Slugma, legendary: false, color: {Red: Slugma}, types: [Fire], tier: PU, doublesTier: NU, gen: 2, mega: null}
 - {name: Swinub, legendary: false, color: {Brown: Swinub}, types: [Ice, Ground], tier: UU, doublesTier: NU, gen: 2, mega: null}
