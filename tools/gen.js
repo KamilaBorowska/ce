@@ -47,13 +47,13 @@ function searchTier(formatsData, pokemonid, findMega) {
     const tiers = {
         Uber: 0,
         OU: 1,
-        BL: 1,
+        UUBL: 1,
         UU: 2,
-        BL2: 2,
+        RUBL: 2,
         RU: 3,
-        BL3: 3,
+        NUBL: 3,
         NU: 4,
-        BL4: 4,
+        PUBL: 4,
         PU: 5,
         New: 5,
         NFE: 5,
@@ -130,7 +130,8 @@ const legendaries = {
     silvally: 1, tapukoko: 1, tapulele: 1, tapubulu: 1, tapufini: 1,
     solgaleo: 1, lunala: 1, nihilego: 1, buzzwole: 1, pheromosa: 1,
     xurkitree: 1, celesteela: 1, kartana: 1, guzzlord: 1, necrozma: 1,
-    magearna: 1, marshadow: 1, naganadel: 1, stakataka: 1, blacephalon: 1
+    magearna: 1, marshadow: 1, naganadel: 1, stakataka: 1, blacephalon: 1,
+    zeraora: 1
 }
 
 const fs = require('fs')
