@@ -1,4 +1,4 @@
-- {name: Bulbasaur, legendary: false, color: {Green: Bulbasaur}, types: [Grass, Poison], tier: RU, doublesTier: NU, gen: 1, mega: {tier: UU, doublesTier: UU}}
+- {name: Bulbasaur, legendary: false, color: {Green: Bulbasaur}, types: [Grass, Poison], tier: RU, doublesTier: NU, gen: 1, mega: {tier: OU, doublesTier: OU}}
 - {name: Charmander, legendary: false, color: {Red: Charmander}, types: [Fire], tier: NU, doublesTier: NU, gen: 1, mega: {tier: OU, doublesTier: OU}}
 - {name: Squirtle, legendary: false, color: {Blue: Squirtle}, types: [Water], tier: NU, doublesTier: NU, gen: 1, mega: {tier: RU, doublesTier: RU}}
 - {name: Pidgey, legendary: false, color: {Brown: Pidgey}, types: [Normal, Flying], tier: PU, doublesTier: NU, gen: 1, mega: {tier: UU, doublesTier: UU}}
@@ -95,7 +95,7 @@
 - {name: Houndour, legendary: false, color: {Black: Houndour}, types: [Dark, Fire], tier: NU, doublesTier: NU, gen: 2, mega: {tier: UU, doublesTier: UU}}
 - {name: Phanpy, legendary: false, color: {Blue: Phanpy}, types: [Ground], tier: RU, doublesTier: NU, gen: 2, mega: null}
 - {name: Raikou, legendary: true, color: {Yellow: Raikou}, types: [Electric], tier: UU, doublesTier: NU, gen: 2, mega: null}
-- {name: Entei, legendary: true, color: {Brown: Entei}, types: [Fire], tier: RU, doublesTier: NU, gen: 2, mega: null}
+- {name: Entei, legendary: true, color: {Brown: Entei}, types: [Fire], tier: UU, doublesTier: NU, gen: 2, mega: null}
 - {name: Suicune, legendary: true, color: {Blue: Suicune}, types: [Water], tier: UU, doublesTier: NU, gen: 2, mega: null}
 - {name: Larvitar, legendary: false, color: {Green: Larvitar}, types: [Rock, Ground], tier: OU, doublesTier: NU, gen: 2, mega: {tier: OU, doublesTier: OU}}
 - {name: Lugia, legendary: true, color: {White: Lugia}, types: [Psychic, Flying], tier: Uber, doublesTier: NU, gen: 2, mega: null}
@@ -201,7 +201,7 @@
 - {name: Tepig, legendary: false, color: {Red: Tepig}, types: [Fire], tier: RU, doublesTier: NU, gen: 5, mega: null}
 - {name: Oshawott, legendary: false, color: {Blue: Oshawott}, types: [Water], tier: NU, doublesTier: NU, gen: 5, mega: null}
 - {name: Patrat, legendary: false, color: {Brown: Patrat}, types: [Normal], tier: PU, doublesTier: NU, gen: 5, mega: null}
-- {name: Lillipup, legendary: false, color: {Brown: Lillipup}, types: [Normal], tier: NU, doublesTier: NU, gen: 5, mega: null}
+- {name: Lillipup, legendary: false, color: {Brown: Lillipup}, types: [Normal], tier: PU, doublesTier: NU, gen: 5, mega: null}
 - {name: Purrloin, legendary: false, color: {Purple: Purrloin}, types: [Dark], tier: PU, doublesTier: NU, gen: 5, mega: null}
 - {name: Pansage, legendary: false, color: {Green: Pansage}, types: [Grass], tier: PU, doublesTier: NU, gen: 5, mega: null}
 - {name: Pansear, legendary: false, color: {Red: Pansear}, types: [Fire], tier: PU, doublesTier: NU, gen: 5, mega: null}
@@ -296,7 +296,7 @@
 - {name: Xerneas, legendary: true, color: {Blue: Xerneas}, types: [Fairy], tier: Uber, doublesTier: NU, gen: 6, mega: null}
 - {name: Yveltal, legendary: true, color: {Red: Yveltal}, types: [Dark, Flying], tier: Uber, doublesTier: NU, gen: 6, mega: null}
 - {name: Zygarde, legendary: true, color: {Green: Zygarde}, types: [Dragon, Ground], tier: OU, doublesTier: NU, gen: 6, mega: null}
-- {name: Diancie, legendary: true, color: {Pink: Diancie}, types: [Rock, Fairy], tier: NU, doublesTier: NU, gen: 6, mega: {tier: UU, doublesTier: UU}}
+- {name: Diancie, legendary: true, color: {Pink: Diancie}, types: [Rock, Fairy], tier: NU, doublesTier: NU, gen: 6, mega: {tier: OU, doublesTier: OU}}
 - {name: Hoopa, legendary: true, color: {Purple: Hoopa}, types: [Psychic, Ghost], tier: RU, doublesTier: NU, gen: 6, mega: null}
 - {name: Hoopa-Unbound, legendary: true, color: {Purple: Hoopa-Unbound}, types: [Psychic, Dark], tier: OU, doublesTier: NU, gen: 6, mega: null}
 - {name: Rowlet, legendary: false, color: {Brown: Rowlet}, types: [Grass, Flying], tier: NU, doublesTier: NU, gen: 7, mega: null}
