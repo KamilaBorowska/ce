@@ -42,22 +42,22 @@ function toId(name) {
     return name.toLowerCase().replace(/[^a-z0-9]/g, "")
 }
 
-    const tiers = {
-        Uber: 0,
-        OU: 1,
-        UUBL: 1,
-        UU: 2,
-        RUBL: 2,
-        RU: 3,
-        NUBL: 3,
-        NU: 4,
-        PUBL: 4,
-        PU: 5,
-        New: 5,
-        NFE: 5,
-        LC: 5,
-        'LC Uber': 5,
-    }
+const tiers = {
+    Uber: 0,
+    OU: 1,
+    UUBL: 1,
+    UU: 2,
+    RUBL: 2,
+    RU: 3,
+    NUBL: 3,
+    NU: 4,
+    PUBL: 4,
+    PU: 5,
+    New: 5,
+    NFE: 5,
+    LC: 5,
+    'LC Uber': 5,
+}
 
 function searchTier(formatsData, pokemonid, findMega) {
     const pokemon = pokedex[pokemonid]
