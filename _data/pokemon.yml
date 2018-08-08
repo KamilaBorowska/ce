@@ -238,7 +238,6 @@
 - {name: Foongus, legendary: false, color: {White: Foongus}, types: [Grass, Poison], tier: UU, doublesTier: NU, gen: 5, mega: null}
 - {name: Frillish, legendary: false, color: {White: Frillish}, types: [Water, Ghost], tier: NU, doublesTier: NU, gen: 5, mega: null}
 - {name: Joltik, legendary: false, color: {Yellow: Joltik}, types: [Bug, Electric], tier: RU, doublesTier: NU, gen: 5, mega: null}
-- {name: Ferroseed, legendary: false, color: {Gray: Ferroseed}, types: [Grass, Steel], tier: OU, doublesTier: NU, gen: 5, mega: null}
 - {name: Klink, legendary: false, color: {Gray: Klink}, types: [Steel], tier: NU, doublesTier: NU, gen: 5, mega: null}
 - {name: Elgyem, legendary: false, color: {Blue: Elgyem}, types: [Psychic], tier: PU, doublesTier: NU, gen: 5, mega: null}
 - {name: Litwick, legendary: false, color: {White: Litwick}, types: [Ghost, Fire], tier: UU, doublesTier: NU, gen: 5, mega: null}
