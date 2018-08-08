@@ -51,6 +51,7 @@
 - {name: Goldeen, legendary: false, color: {Red: Goldeen}, types: [Water], tier: PU, doublesTier: NU, gen: 1, mega: null}
 - {name: Staryu, legendary: false, color: {Brown: Staryu}, types: [Water], tier: UU, doublesTier: NU, gen: 1, mega: null}
 - {name: Mime Jr., legendary: false, color: {Pink: Mime Jr.}, types: [Psychic, Fairy], tier: PU, doublesTier: NU, gen: 4, mega: null}
+- {name: Scyther, legendary: false, color: {Green: Scyther}, types: [Bug, Flying], tier: UU, doublesTier: NU, gen: 1, mega: {tier: OU, doublesTier: OU}}
 - {name: Smoochum, legendary: false, color: {Pink: Smoochum}, types: [Ice, Psychic], tier: PU, doublesTier: NU, gen: 2, mega: null}
 - {name: Elekid, legendary: false, color: {Yellow: Elekid}, types: [Electric], tier: PU, doublesTier: NU, gen: 2, mega: null}
 - {name: Magby, legendary: false, color: {Red: Magby}, types: [Fire], tier: NU, doublesTier: NU, gen: 2, mega: null}
