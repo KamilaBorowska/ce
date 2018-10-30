@@ -158,7 +158,7 @@ for (const pokemonid in formatsData) {
     fs.writeSync(output, Array.from(colors).map(([color, specie]) => `${color}: ${specie}`).join(", "))
     fs.writeSync(output, '}, types: [' + pokemon.types.join(', ') + ']')
     const singlesTier = searchTier(formatsData, pokemonid, false)
-    const doublesTier = searchTier(doublesFormatsData, pokemonid, false, [])
+    const doublesTier = searchTier(doublesFormatsData, pokemonid, false)
     fs.writeSync(output, ', tier: ' + singlesTier)
     fs.writeSync(output, ', doublesTier: ' + doublesTier)
     fs.writeSync(output, ', gen: ' + gen(pokemon.num))
