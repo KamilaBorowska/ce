@@ -11,8 +11,6 @@ const formatHandlers = {
     '[Gen 7] Doubles UU': 'OU',
 }
 
-const banlists = {}
-
 for (const pokemonid in doublesFormatsData) {
     doublesFormatsData[pokemonid] = Object.create(doublesFormatsData[pokemonid])
     doublesFormatsData[pokemonid].tier = 'NU'
@@ -143,8 +141,6 @@ for (const pokemonid in formatsData) {
     const format = formatsData[pokemonid]
     if (!legendaries[pokemonid] && (!pokemon || pokemon.prevo || !pokemon.evos || pokemon.forme || format.isNonstandard || banned[pokemonid] || tiers[formatsData[pokemonid].tier] < 5)) continue
 
-    const mega = false
-    const tier = format.tier
     fs.writeSync(output, '- {name: ' + pokemon.species)
     fs.writeSync(output, ', legendary: ' + !!legendaries[pokemonid])
     const colors = new Map([[pokemon.color, pokemon.species]])
