@@ -18,6 +18,6 @@
   "homepage": "https://github.com/xfix/ce#readme",
   "dependencies": {
     "Pokemon-Showdown": "git+https://github.com/Zarel/Pokemon-Showdown.git",
-    "protractor": "^5.2.0"
+    "protractor": "^5.4.4"
   }
 }
